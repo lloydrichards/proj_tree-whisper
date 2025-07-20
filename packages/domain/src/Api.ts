@@ -8,8 +8,8 @@ export const ApiResponse = Schema.Struct({
 
 // Define Domain of API
 export class HealthGroup extends HttpApiGroup.make("health")
-  .add(HttpApiEndpoint.get("get", "/").addSuccess(Schema.String))
-  .prefix("/") {}
+  .add(HttpApiEndpoint.get("get", "/").addSuccess(ApiResponse))
+  .prefix("/health") {}
 
 export class HelloGroup extends HttpApiGroup.make("hello")
   .add(HttpApiEndpoint.get("get", "/").addSuccess(ApiResponse))

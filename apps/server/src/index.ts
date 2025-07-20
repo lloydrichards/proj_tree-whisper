@@ -5,7 +5,12 @@ import { Config, Effect, Layer } from "effect";
 
 // Define Live API Handlers
 const HealthGroupLive = HttpApiBuilder.group(Api, "health", (handlers) =>
-  handlers.handle("get", () => Effect.succeed("Hello Effect!"))
+  handlers.handle("get", () =>
+    Effect.succeed({
+      message: "Health is good!",
+      success: true,
+    })
+  )
 );
 const HelloGroupLive = HttpApiBuilder.group(Api, "hello", (handlers) =>
   handlers.handle("get", () => {
