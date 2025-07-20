@@ -11,6 +11,13 @@
   },
   "linter": {
     "rules": {
+      "correctness": {
+        "noUnusedImports": {
+          "level": "warn",
+          "fix": "safe",
+          "options": {}
+        }
+      },
       "style": {
         "useFilenamingConvention": {
           "level": "warn",

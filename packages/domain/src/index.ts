@@ -1,1 +1,3 @@
-export * from "./Api";
+export * from "./api";
+
+export * from "./entities/Tree";
