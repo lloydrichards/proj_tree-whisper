@@ -15,6 +15,7 @@
     "@effect/platform": "^0.88.2",
     "@effect/platform-bun": "^0.74.0",
     "@repo/domain": "workspace:*",
+    "@repo/database": "*",
     "effect": "3.16.16"
   },
   "devDependencies": {

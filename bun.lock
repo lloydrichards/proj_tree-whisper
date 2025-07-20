@@ -43,6 +43,7 @@
       "dependencies": {
         "@effect/platform": "^0.88.2",
         "@effect/platform-bun": "^0.74.0",
+        "@repo/database": "workspace:*",
         "@repo/domain": "workspace:*",
         "effect": "3.16.16",
       },

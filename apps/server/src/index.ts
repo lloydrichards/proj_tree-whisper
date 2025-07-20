@@ -3,6 +3,7 @@ import { BunHttpServer, BunRuntime } from "@effect/platform-bun";
 import { Api, type ApiResponse } from "@repo/domain";
 import { Config, Effect, Layer } from "effect";
 import { TreeGroupLive } from "./api/Trees";
+import { TreeManager } from "./services/TreeManager";
 
 // Define Live API Handlers
 const HealthGroupLive = HttpApiBuilder.group(Api, "health", (handlers) =>
@@ -36,6 +37,7 @@ const HttpLive = HttpApiBuilder.serve().pipe(
   HttpServer.withLogAddress,
   Layer.provide(HttpApiBuilder.middlewareCors()),
   Layer.provideMerge(ApiLive),
+  Layer.provideMerge(TreeManager.Default),
   Layer.provideMerge(BunHttpServer.layerConfig(ServerConfig))
 );
 

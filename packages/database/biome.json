@@ -6,6 +6,14 @@
     "rules": {
       "suspicious": {
         "noShadowRestrictedNames": "off"
+      },
+      "style": {
+        "useFilenamingConvention": {
+          "level": "warn",
+          "options": {
+            "filenameCases": ["kebab-case", "PascalCase", "snake_case"]
+          }
+        }
       }
     }
   }
