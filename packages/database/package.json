@@ -1,0 +1,25 @@
+{
+  "name": "@repo/database",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "type-check": "tsc --noEmit",
+    "migrate": "bun run script/migrate.ts",
+    "migrate:reset": "bun run script/reset.ts",
+    "clean": "git clean -xdf .cache .turbo dist node_modules"
+  },
+  "dependencies": {
+    "@effect/platform": "^0.88.2",
+    "@effect/platform-bun": "^0.74.0",
+    "@effect/sql": "^0.42.1",
+    "@effect/sql-pg": "^0.43.0",
+    "effect": "^3.16.16",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@repo/config-typescript": "*",
+    "@types/bun": "^1.2.19",
+    "@types/pg": "^8.15.4"
+  }
+}

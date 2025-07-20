@@ -67,8 +67,8 @@ export class UpsertTreePayload extends Schema.Class<UpsertTreePayload>(
     Schema.int({
       message: () => "Year must be an integer",
     }),
-    Schema.greaterThanOrEqualTo(1800, {
-      message: () => "Year must be 1800 or later",
+    Schema.greaterThanOrEqualTo(0, {
+      message: () => "Year must be in this millennium (>= 0)",
     }),
     Schema.lessThanOrEqualTo(new Date().getFullYear(), {
       message: () => "Year cannot be in the future",
