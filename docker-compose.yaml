@@ -1,6 +1,23 @@
-name: bevr-app
+name: tree-whisper-app
 services:
+  database:
+    image: postgres:latest
+    container_name: tree-postgres
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USERNAME} -d ${DB_DATABASE}"]
+      interval: 10s
+      retries: 5
+      start_period: 30s
+      timeout: 10s
+    environment:
+      POSTGRES_DB: ${DB_DATABASE}
+      POSTGRES_USER: ${DB_USERNAME}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - ./db_volume:/var/lib/postgresql/data
+
   server:
+    container_name: tree-server
     build:
       context: .
       dockerfile: ./apps/server/Dockerfile
@@ -12,6 +29,7 @@ services:
       - app-network
 
   client:
+    container_name: tree-client
     build:
       context: .
       dockerfile: ./apps/client/Dockerfile
@@ -30,3 +48,6 @@ services:
 networks:
   app-network:
     driver: bridge
+
+volumes:
+  db_volume:

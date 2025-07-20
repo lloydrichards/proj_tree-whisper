@@ -28,7 +28,7 @@ build
 dist
 
 # Docker
-
+db_volume
 
 # Debug
 npm-debug.log*

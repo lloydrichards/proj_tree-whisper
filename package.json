@@ -1,5 +1,5 @@
 {
-  "name": "base_bevr-stack",
+  "name": "tree-whisper",
   "private": true,
   "scripts": {
     "build": "turbo run build",
