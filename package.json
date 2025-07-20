@@ -1,0 +1,28 @@
+{
+  "name": "base_bevr-stack",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "clean": "turbo run clean && git clean -xdf node_modules",
+    "dev": "turbo run dev",
+    "lint": "ultracite lint",
+    "format": "biome check --write",
+    "format:check": "biome check",
+    "test": "turbo run test",
+    "type-check": "turbo run type-check"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.1.2",
+    "turbo": "^2.5.5",
+    "typescript": "5.8.3",
+    "ultracite": "5.0.39"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "bun@1.2.18",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
