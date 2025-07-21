@@ -2,7 +2,9 @@ import { HttpApiBuilder, HttpServer } from "@effect/platform";
 import { BunHttpServer, BunRuntime } from "@effect/platform-bun";
 import { Api, type ApiResponse } from "@repo/domain";
 import { Config, Effect, Layer } from "effect";
+import { SpeciesGroupLive } from "./api/Species";
 import { TreeGroupLive } from "./api/Trees";
+import { SpeciesManager } from "./services/SpeciesManager";
 import { TreeManager } from "./services/TreeManager";
 
 // Define Live API Handlers
@@ -26,7 +28,14 @@ const HelloGroupLive = HttpApiBuilder.group(Api, "hello", (handlers) =>
 
 // Define Live API
 const ApiLive = HttpApiBuilder.api(Api).pipe(
-  Layer.provide(Layer.mergeAll(HealthGroupLive, HelloGroupLive, TreeGroupLive))
+  Layer.provide(
+    Layer.mergeAll(
+      HealthGroupLive,
+      HelloGroupLive,
+      SpeciesGroupLive,
+      TreeGroupLive
+    )
+  )
 );
 
 const ServerConfig = Config.all({
@@ -37,6 +46,7 @@ const HttpLive = HttpApiBuilder.serve().pipe(
   HttpServer.withLogAddress,
   Layer.provide(HttpApiBuilder.middlewareCors()),
   Layer.provideMerge(ApiLive),
+  Layer.provideMerge(SpeciesManager.Default),
   Layer.provideMerge(TreeManager.Default),
   Layer.provideMerge(BunHttpServer.layerConfig(ServerConfig))
 );

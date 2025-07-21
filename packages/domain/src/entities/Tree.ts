@@ -1,5 +1,16 @@
-import { faker } from "@faker-js/faker";
-import { DateTime, Schema } from "effect";
+import { Schema } from "effect";
+import {
+  generateUUID,
+  randomArrayElement,
+  randomCity,
+  randomIntRange,
+  randomLatitude,
+  randomLongitude,
+  randomNumericString,
+  randomPastDateTime,
+  randomStreetAddress,
+  randomWords,
+} from "../helpers/mock-generators";
 
 export const TreeId = Schema.UUID.pipe(Schema.brand("TreeId"));
 
@@ -23,19 +34,19 @@ export class Tree extends Schema.Class<Tree>("Tree")({
 
   static makeMock(overrides: Partial<Tree> = {}): Tree {
     return new Tree({
-      id: TreeId.make(faker.string.uuid()),
-      name: faker.word.words(3),
-      number: faker.string.numeric(3),
-      category: faker.helpers.arrayElement(["STREET", "PARK"]),
-      quarter: faker.location.city(),
-      address: faker.location.streetAddress(),
-      family: faker.word.words(2),
-      species: faker.word.words(2),
-      cultivar: faker.word.words(2),
-      year: faker.number.int({ min: 1900, max: 2023 }),
-      longitude: faker.location.longitude(),
-      latitude: faker.location.latitude(),
-      createdAt: DateTime.unsafeFromDate(faker.date.past({ years: 100 })),
+      id: TreeId.make(generateUUID()),
+      name: randomWords(3),
+      number: randomNumericString(3),
+      category: randomArrayElement(["STREET", "PARK"]),
+      quarter: randomCity(),
+      address: randomStreetAddress(),
+      family: randomWords(2),
+      species: randomWords(2),
+      cultivar: randomWords(2),
+      year: randomIntRange(1900, 2023),
+      longitude: randomLongitude(),
+      latitude: randomLatitude(),
+      createdAt: randomPastDateTime(100),
       updatedAt: null,
       ...overrides,
     });
