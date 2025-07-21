@@ -19,7 +19,7 @@ export class TreeManager extends Effect.Service<TreeManager>()("TreeManager", {
         SELECT
           *
         FROM
-          styles
+          trees
         WHERE
           id = ${id}
       `,
@@ -32,7 +32,7 @@ export class TreeManager extends Effect.Service<TreeManager>()("TreeManager", {
         SELECT
           *
         FROM
-          styles
+          trees
       `,
     });
 
@@ -41,7 +41,7 @@ export class TreeManager extends Effect.Service<TreeManager>()("TreeManager", {
       Request: CreateStyleInput,
       execute: (request) => sql`
         INSERT INTO
-          styles ${sql.insert(request)}
+          trees ${sql.insert(request)}
         RETURNING
           *
       `,
@@ -51,7 +51,7 @@ export class TreeManager extends Effect.Service<TreeManager>()("TreeManager", {
       Result: Tree,
       Request: UpdateStyleInput,
       execute: (request) => sql`
-        UPDATE styles
+        UPDATE trees
         SET
           ${sql.update(request)}
         WHERE
@@ -65,7 +65,7 @@ export class TreeManager extends Effect.Service<TreeManager>()("TreeManager", {
       Request: TreeId,
       Result: Schema.Unknown,
       execute: (id) => sql`
-        DELETE FROM styles
+        DELETE FROM trees
         WHERE
           id = ${id}
         RETURNING
