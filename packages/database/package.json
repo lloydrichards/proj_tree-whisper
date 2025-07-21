@@ -9,7 +9,7 @@
   "scripts": {
     "build": "tsc",
     "type-check": "tsc --noEmit",
-    "db:migrate": "bun run script/migrate.ts",
+    "db:migrate": "bun run script/migrate.ts && bun db:dump",
     "db:reset": "bun run script/reset.ts",
     "db:dump": "bun run script/dump.ts",
     "clean": "git clean -xdf .cache .turbo dist node_modules"

@@ -83,6 +83,20 @@ bun dev --filter=server
 bun run build
 ```
 
+### Database
+
+The server uses a PostgreSQL database. You can set up a local PostgreSQL
+instance or use a managed service. Update the database connection string in the
+`.env` file in the `server` directory.
+
+```sh
+# Run PostgreSQL in a Docker container
+docker run --name tree-postgres -e POSTGRES_PASSWORD=postgres -p 5435:5432 -d postgres
+
+# Create a .env file in the server directory
+# export DATABASE_URL='postgres://postgres:postgres@localhost:5435/postgres'
+```
+
 ## Deployment
 
 To run the application using Docker, you can use the provided
