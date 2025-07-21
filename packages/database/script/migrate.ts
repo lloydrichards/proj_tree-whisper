@@ -13,7 +13,7 @@ BunRuntime.runMain(
 
     const migrations = yield* PgMigrator.run({
       loader: PgMigrator.fromFileSystem(path.join(currentDir, "../migrations")),
-      schemaDirectory: path.join(currentDir, "../migrations/sql"),
+      // schemaDirectory: path.join(currentDir, "../migrations/sql"),
     });
 
     if (migrations.length === 0) {

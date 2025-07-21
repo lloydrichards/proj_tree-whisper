@@ -3,13 +3,15 @@
   "version": "0.0.0",
   "private": true,
   "exports": {
-    ".": "./src/index.ts"
+    ".": "./src/index.ts",
+    "./migrations/*": "./migrations/*"
   },
   "scripts": {
     "build": "tsc",
     "type-check": "tsc --noEmit",
-    "migrate": "bun run script/migrate.ts",
-    "migrate:reset": "bun run script/reset.ts",
+    "db:migrate": "bun run script/migrate.ts",
+    "db:reset": "bun run script/reset.ts",
+    "db:dump": "bun run script/dump.ts",
     "clean": "git clean -xdf .cache .turbo dist node_modules"
   },
   "dependencies": {

@@ -19,22 +19,22 @@ export default Effect.flatMap(
       latitude DECIMAL(10, 7) NOT NULL CHECK (latitude >= -90 AND latitude <= 90),
       created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
       updated_at TIMESTAMP WITH TIME ZONE
-    )
+    );
 
     CREATE OR REPLACE FUNCTION update_updated_at_column () RETURNS TRIGGER AS $$
       BEGIN
           NEW.updated_at = now();
           RETURN NEW;
       END;
-      $$ language 'plpgsql'
+      $$ language 'plpgsql';
 
     CREATE TRIGGER update_trees_updated_at BEFORE
       UPDATE ON trees FOR EACH ROW
       EXECUTE FUNCTION update_updated_at_column ();
     
 
-    CREATE INDEX IF NOT EXISTS idx_trees_species ON trees(species)
-    CREATE INDEX IF NOT EXISTS idx_trees_location ON trees(quarter)
-    CREATE INDEX IF NOT EXISTS idx_trees_category ON trees(category)
+    CREATE INDEX IF NOT EXISTS idx_trees_species ON trees(species);
+    CREATE INDEX IF NOT EXISTS idx_trees_location ON trees(quarter);
+    CREATE INDEX IF NOT EXISTS idx_trees_category ON trees(category);
   `
 );
