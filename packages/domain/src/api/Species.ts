@@ -1,6 +1,12 @@
 import { HttpApiEndpoint, HttpApiGroup, HttpApiSchema } from "@effect/platform";
 import { Schema } from "effect";
-import { Species, SpeciesId } from "../entities/Species";
+import {
+  HabitEnum,
+  MonthEnum,
+  RateEnum,
+  Species,
+  SpeciesId,
+} from "../entities/Species";
 
 export class UpsertSpeciesPayload extends Schema.Class<UpsertSpeciesPayload>(
   "UpsertSpeciesPayload"
@@ -16,6 +22,7 @@ export class UpsertSpeciesPayload extends Schema.Class<UpsertSpeciesPayload>(
       })
     )
   ),
+  altNames: Schema.Array(Schema.String),
   scientificName: Schema.NullOr(
     Schema.Trim.pipe(
       Schema.nonEmptyString({
@@ -46,10 +53,17 @@ export class UpsertSpeciesPayload extends Schema.Class<UpsertSpeciesPayload>(
       })
     )
   ),
+  flowerColor: Schema.Array(Schema.String),
+  flowerMonths: Schema.Array(MonthEnum),
   foliageTexture: Schema.NullOr(Schema.String),
+  foliageColor: Schema.Array(Schema.String),
+  fruitColor: Schema.Array(Schema.String),
   fruitShape: Schema.NullOr(Schema.String),
+  fruitMonths: Schema.Array(MonthEnum),
   growthForm: Schema.NullOr(Schema.String),
-  growthRate: Schema.NullOr(Schema.Literal("SLOW", "MODERATE", "FAST")),
+  growthHabit: Schema.Array(HabitEnum),
+  growthRate: Schema.NullOr(RateEnum),
+  growthMonths: Schema.Array(MonthEnum),
   light: Schema.NullOr(
     Schema.Number.pipe(
       Schema.int({
