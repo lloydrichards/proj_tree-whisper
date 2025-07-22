@@ -14,13 +14,6 @@ DROP TABLE IF EXISTS public.trees;
 DROP TABLE IF EXISTS public.species;
 DROP TABLE IF EXISTS public.effect_sql_migrations;
 DROP FUNCTION IF EXISTS public.update_updated_at_column();
-DROP TYPE IF EXISTS public.rate_enum;
-
-CREATE TYPE public.rate_enum AS ENUM (
-    'SLOW',
-    'MODERATE',
-    'FAST'
-);
 
 CREATE FUNCTION public.update_updated_at_column() RETURNS trigger
     LANGUAGE plpgsql
@@ -40,13 +33,21 @@ CREATE TABLE public.effect_sql_migrations (
 CREATE TABLE public.species (
     id uuid DEFAULT gen_random_uuid() NOT NULL,
     common_name text,
+    alt_names text[] DEFAULT '{}'::text[],
     scientific_name text,
     genus text,
     family text,
+    flower_color text[] DEFAULT '{}'::text[],
+    flower_months text[] DEFAULT '{}'::text[],
     foliage_texture text,
+    foliage_color text[] DEFAULT '{}'::text[],
+    fruit_color text[] DEFAULT '{}'::text[],
     fruit_shape text,
+    fruit_months text[] DEFAULT '{}'::text[],
     growth_form text,
-    growth_rate public.rate_enum,
+    growth_habit text[] DEFAULT '{}'::text[],
+    growth_rate text,
+    growth_months text[] DEFAULT '{}'::text[],
     light integer,
     humidity integer,
     soil_ph_min double precision,
@@ -56,15 +57,7 @@ CREATE TABLE public.species (
     soil_texture integer,
     soil_humidity integer,
     created_at timestamp with time zone DEFAULT now(),
-    updated_at timestamp with time zone,
-    CONSTRAINT species_humidity_check CHECK (((humidity >= 1) AND (humidity <= 10))),
-    CONSTRAINT species_light_check CHECK (((light >= 1) AND (light <= 10))),
-    CONSTRAINT species_soil_humidity_check CHECK (((soil_humidity >= 1) AND (soil_humidity <= 10))),
-    CONSTRAINT species_soil_nutriments_check CHECK (((soil_nutriments >= 1) AND (soil_nutriments <= 10))),
-    CONSTRAINT species_soil_ph_max_check CHECK (((soil_ph_max >= (0)::double precision) AND (soil_ph_max <= (14)::double precision))),
-    CONSTRAINT species_soil_ph_min_check CHECK (((soil_ph_min >= (0)::double precision) AND (soil_ph_min <= (14)::double precision))),
-    CONSTRAINT species_soil_salinity_check CHECK (((soil_salinity >= 1) AND (soil_salinity <= 10))),
-    CONSTRAINT species_soil_texture_check CHECK (((soil_texture >= 1) AND (soil_texture <= 10)))
+    updated_at timestamp with time zone
 );
 
 CREATE TABLE public.trees (

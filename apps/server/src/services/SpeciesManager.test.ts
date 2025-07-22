@@ -44,4 +44,17 @@ eIt.layer(layer, { timeout: "30 seconds" })("SpeciesManager", (it) => {
       expect(foundSpecies.id).toBe(createdSpecies.id);
     })
   );
+
+  it.effect(
+    "should handle empty array of items in species",
+    Effect.fnUntraced(function* () {
+      const repo = yield* SpeciesManager;
+      const mockedSpecies = Species.makeMock({ altNames: [] });
+      const createdSpecies = yield* repo.create(mockedSpecies);
+      const foundSpecies = yield* repo.findById(createdSpecies.id);
+
+      expect(foundSpecies).toBeDefined();
+      expect(foundSpecies.altNames).toHaveLength(0);
+    })
+  );
 });

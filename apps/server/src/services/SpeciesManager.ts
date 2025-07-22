@@ -1,4 +1,5 @@
 import { SqlClient, SqlSchema } from "@effect/sql";
+import type { Fragment, Primitive } from "@effect/sql/Statement";
 import { PgLive } from "@repo/database";
 import { Species, SpeciesId, SpeciesNotFoundError } from "@repo/domain";
 import { Effect, flow, Schema } from "effect";
@@ -45,7 +46,12 @@ export class SpeciesManager extends Effect.Service<SpeciesManager>()(
         Request: CreateSpeciesInput,
         execute: (request) => sql`
         INSERT INTO
-          species ${sql.insert(request)}
+          species ${sql.insert(
+            request as unknown as Record<
+              string,
+              Primitive | Fragment | undefined
+            >
+          )}
         RETURNING
           *
       `,
@@ -57,7 +63,12 @@ export class SpeciesManager extends Effect.Service<SpeciesManager>()(
         execute: (request) => sql`
         UPDATE species
         SET
-          ${sql.update(request)}
+          ${sql.update(
+            request as unknown as Record<
+              string,
+              Primitive | Fragment | undefined
+            >
+          )}
         WHERE
           id = ${request.id}
         RETURNING

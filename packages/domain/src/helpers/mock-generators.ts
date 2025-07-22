@@ -7,8 +7,8 @@ export const maybeNull = <T>(generator: () => T): T | null =>
 export const maybeWords = (count: number): string | null =>
   maybeNull(() => faker.word.words(count));
 
-export const maybeArrayElement = <T>(elements: readonly T[]): T | null =>
-  maybeNull(() => faker.helpers.arrayElement(elements));
+export const arrayElement = <T>(elements: readonly T[]): T =>
+  faker.helpers.arrayElement(elements);
 
 export const maybeIntRange = (min: number, max: number): number | null =>
   maybeNull(() => faker.number.int({ min, max }));
@@ -46,3 +46,7 @@ export const randomLatitude = (): number => faker.location.latitude();
 
 export const randomIntRange = (min: number, max: number): number =>
   faker.number.int({ min, max });
+
+export const many = <T>(fn: () => T, min: number, max: number): T[] => {
+  return faker.helpers.multiple(fn, { count: { min, max } });
+};

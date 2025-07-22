@@ -1,9 +1,12 @@
+import { faker } from "@faker-js/faker";
 import { Schema } from "effect";
 import {
+  arrayElement,
   generateUUID,
-  maybeArrayElement,
+  many,
   maybeFloatRange,
   maybeIntRange,
+  maybeNull,
   maybeScientificName,
   maybeWords,
   randomPastDateTime,
@@ -11,42 +14,47 @@ import {
 
 export const SpeciesId = Schema.UUID.pipe(Schema.brand("SpeciesId"));
 
-// Define enums based on the schema provided
-export const MonthEnum = Schema.Literal(
-  "JANUARY",
-  "FEBRUARY",
-  "MARCH",
-  "APRIL",
+// Define enums as readonly arrays for reuse
+export const MONTHS = [
+  "JAN",
+  "FEB",
+  "MAR",
+  "APR",
   "MAY",
-  "JUNE",
-  "JULY",
-  "AUGUST",
-  "SEPTEMBER",
-  "OCTOBER",
-  "NOVEMBER",
-  "DECEMBER"
-);
+  "JUN",
+  "JUL",
+  "AUG",
+  "SEP",
+  "OCT",
+  "NOV",
+  "DEC",
+] as const;
+export const MonthEnum = Schema.Literal(...MONTHS);
 
-export const HabitEnum = Schema.Literal(
-  "SHRUB",
-  "TREE",
-  "VINE",
-  "HERBACEOUS",
-  "GRASS"
-);
+export const HABITS = ["TREE", "SHRUB", "VINE", "HERB"] as const;
+export const HabitEnum = Schema.Literal(...HABITS);
 
-export const RateEnum = Schema.Literal("SLOW", "MODERATE", "FAST");
+export const RATES = ["SLOW", "MODERATE", "RAPID"] as const;
+export const RateEnum = Schema.Literal(...RATES);
 
 export class Species extends Schema.Class<Species>("Species")({
   id: SpeciesId,
   commonName: Schema.NullOr(Schema.String),
+  altNames: Schema.Array(Schema.String),
   scientificName: Schema.NullOr(Schema.String),
   genus: Schema.NullOr(Schema.String),
   family: Schema.NullOr(Schema.String),
+  flowerColor: Schema.Array(Schema.String),
+  flowerMonths: Schema.Array(MonthEnum),
   foliageTexture: Schema.NullOr(Schema.String),
+  foliageColor: Schema.Array(Schema.String),
+  fruitColor: Schema.Array(Schema.String),
   fruitShape: Schema.NullOr(Schema.String),
+  fruitMonths: Schema.Array(MonthEnum),
   growthForm: Schema.NullOr(Schema.String),
+  growthHabit: Schema.Array(HabitEnum),
   growthRate: Schema.NullOr(RateEnum),
+  growthMonths: Schema.Array(MonthEnum),
   light: Schema.NullOr(Schema.Number),
   humidity: Schema.NullOr(Schema.Number),
   soilPhMin: Schema.NullOr(Schema.Number),
@@ -64,23 +72,27 @@ export class Species extends Schema.Class<Species>("Species")({
     return new Species({
       id: SpeciesId.make(generateUUID()),
       commonName: maybeWords(2),
+      altNames: many(() => faker.word.words(2), 1, 3),
       scientificName: maybeScientificName(),
       genus: maybeWords(1),
       family: maybeWords(1),
-      foliageTexture: maybeArrayElement(["fine", "medium", "coarse"]),
-      fruitShape: maybeArrayElement([
-        "round",
-        "oval",
-        "elongated",
-        "irregular",
-      ]),
-      growthForm: maybeArrayElement([
-        "upright",
-        "spreading",
-        "weeping",
-        "columnar",
-      ]),
-      growthRate: maybeArrayElement(["SLOW", "MODERATE", "FAST"] as const),
+      flowerColor: many(() => faker.color.human(), 1, 3),
+      flowerMonths: many(() => arrayElement(MONTHS), 0, 3),
+      foliageTexture: maybeNull(() =>
+        arrayElement(["fine", "medium", "coarse"])
+      ),
+      foliageColor: many(() => faker.color.human(), 1, 3),
+      fruitColor: many(() => faker.color.human(), 1, 3),
+      fruitShape: maybeNull(() =>
+        arrayElement(["round", "oval", "elongated", "irregular"])
+      ),
+      fruitMonths: many(() => arrayElement(MONTHS), 0, 3),
+      growthForm: maybeNull(() =>
+        arrayElement(["upright", "spreading", "weeping", "columnar"])
+      ),
+      growthHabit: many(() => arrayElement(HABITS), 1, 2),
+      growthRate: maybeNull(() => arrayElement(RATES)),
+      growthMonths: many(() => arrayElement(MONTHS), 0, 3),
       light: maybeIntRange(1, 10),
       humidity: maybeIntRange(1, 10),
       soilPhMin: maybeFloatRange(4.0, 7.0, 1),

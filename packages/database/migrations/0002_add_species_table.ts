@@ -4,30 +4,34 @@ import { Effect } from "effect";
 export default Effect.flatMap(
   SqlClient.SqlClient,
   (sql) => sql`
-    -- Create enum types for species
-    CREATE TYPE rate_enum AS ENUM (
-      'SLOW', 'MODERATE', 'FAST'
-    );
 
-    -- Create species table
+    -- Create species table (new schema)
     CREATE TABLE IF NOT EXISTS species (
       id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
       common_name TEXT,
+      alt_names TEXT[] DEFAULT '{}',
       scientific_name TEXT,
       genus TEXT,
       family TEXT,
+      flower_color TEXT[] DEFAULT '{}',
+      flower_months TEXT[] DEFAULT '{}',
       foliage_texture TEXT,
+      foliage_color TEXT[] DEFAULT '{}',
+      fruit_color TEXT[] DEFAULT '{}',
       fruit_shape TEXT,
+      fruit_months TEXT[] DEFAULT '{}',
       growth_form TEXT,
-      growth_rate rate_enum,
-      light INTEGER CHECK (light >= 1 AND light <= 10),
-      humidity INTEGER CHECK (humidity >= 1 AND humidity <= 10),
-      soil_ph_min DOUBLE PRECISION CHECK (soil_ph_min >= 0 AND soil_ph_min <= 14),
-      soil_ph_max DOUBLE PRECISION CHECK (soil_ph_max >= 0 AND soil_ph_max <= 14),
-      soil_nutriments INTEGER CHECK (soil_nutriments >= 1 AND soil_nutriments <= 10),
-      soil_salinity INTEGER CHECK (soil_salinity >= 1 AND soil_salinity <= 10),
-      soil_texture INTEGER CHECK (soil_texture >= 1 AND soil_texture <= 10),
-      soil_humidity INTEGER CHECK (soil_humidity >= 1 AND soil_humidity <= 10),
+      growth_habit TEXT[] DEFAULT '{}',
+      growth_rate TEXT,
+      growth_months TEXT[] DEFAULT '{}',
+      light INTEGER,
+      humidity INTEGER,
+      soil_ph_min DOUBLE PRECISION,
+      soil_ph_max DOUBLE PRECISION,
+      soil_nutriments INTEGER,
+      soil_salinity INTEGER,
+      soil_texture INTEGER,
+      soil_humidity INTEGER,
       created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
       updated_at TIMESTAMP WITH TIME ZONE
     );

@@ -28,7 +28,6 @@ export class PgContainer extends Effect.Service<PgContainer>()("PgContainer", {
       const schema = yield* fs.readFileString(schemaPath);
 
       yield* Effect.log("🐳 Setting up PostgreSQL container...");
-      yield* Effect.log(schema);
 
       yield* sql.unsafe(schema);
     })
