@@ -12,7 +12,7 @@ import {
   randomPastDateTime,
 } from "../helpers/mock-generators";
 
-export const SpeciesId = Schema.UUID.pipe(Schema.brand("SpeciesId"));
+export const SpeciesId = Schema.String.pipe(Schema.brand("SpeciesId"));
 
 // Define enums as readonly arrays for reuse
 export const MONTHS = [

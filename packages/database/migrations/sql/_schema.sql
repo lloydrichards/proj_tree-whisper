@@ -31,7 +31,7 @@ CREATE TABLE public.effect_sql_migrations (
 );
 
 CREATE TABLE public.species (
-    id uuid DEFAULT gen_random_uuid() NOT NULL,
+    id text NOT NULL,
     common_name text,
     alt_names text[] DEFAULT '{}'::text[],
     scientific_name text,
@@ -66,11 +66,11 @@ CREATE TABLE public.trees (
     number character varying(50) NOT NULL,
     category character varying(20) NOT NULL,
     quarter character varying(100) NOT NULL,
-    address character varying(200) NOT NULL,
+    address character varying(200),
     family character varying(100) NOT NULL,
     species character varying(100) NOT NULL,
-    cultivar character varying(100) NOT NULL,
-    year integer NOT NULL,
+    cultivar character varying(100),
+    year integer,
     longitude numeric(10,7) NOT NULL,
     latitude numeric(10,7) NOT NULL,
     created_at timestamp with time zone DEFAULT now(),

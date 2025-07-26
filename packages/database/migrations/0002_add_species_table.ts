@@ -7,7 +7,7 @@ export default Effect.flatMap(
 
     -- Create species table (new schema)
     CREATE TABLE IF NOT EXISTS species (
-      id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+      id TEXT PRIMARY KEY,
       common_name TEXT,
       alt_names TEXT[] DEFAULT '{}',
       scientific_name TEXT,
