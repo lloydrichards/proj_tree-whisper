@@ -50,9 +50,11 @@ export class Species extends Schema.Class<Species>("Species")({
   commonName: Schema.NullOr(Schema.String).annotations({
     description: "Common name of the species",
   }),
-  altNames: Schema.Array(Schema.String).annotations({
-    description: "Alternative names for the species",
-  }),
+  altNames: Schema.NullOr(
+    Schema.Array(Schema.String).annotations({
+      description: "Alternative names for the species",
+    })
+  ),
   genus: Schema.NullOr(Schema.String),
   family: Schema.NullOr(Schema.String),
   flowerColor: Schema.Array(
