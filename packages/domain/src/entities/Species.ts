@@ -37,7 +37,7 @@ export const HabitEnum = Schema.Literal(...HABITS);
 export const RATES = ["SLOW", "MODERATE", "RAPID"] as const;
 export const RateEnum = Schema.Literal(...RATES);
 
-export class Species extends Schema.Class<Species>("Species")({
+export class Species extends Schema.TaggedClass<Species>("Species")("Species", {
   id: SpeciesId,
   commonName: Schema.NullOr(Schema.String),
   altNames: Schema.Array(Schema.String),

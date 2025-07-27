@@ -1,6 +1,6 @@
 import { HttpApiBuilder } from "@effect/platform";
 import { Api } from "@repo/domain";
-import { Effect } from "effect";
+import { Effect, Layer } from "effect";
 import { TreeManager } from "../services/TreeManager";
 
 export const TreeGroupLive = HttpApiBuilder.group(Api, "trees", (handlers) =>
@@ -19,4 +19,4 @@ export const TreeGroupLive = HttpApiBuilder.group(Api, "trees", (handlers) =>
 
       .handle("delete", () => Effect.void);
   })
-);
+).pipe(Layer.provide(TreeManager.Default));

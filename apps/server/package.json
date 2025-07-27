@@ -12,10 +12,13 @@
     "clean": "git clean -xdf .cache .turbo dist node_modules"
   },
   "dependencies": {
+    "@effect/ai": "^0.25.0",
+    "@effect/ai-google": "^0.4.0",
+    "@effect/ai-openai": "^0.28.0",
     "@effect/platform": "^0.88.2",
     "@effect/platform-bun": "^0.74.0",
-    "@repo/domain": "workspace:*",
     "@repo/database": "*",
+    "@repo/domain": "workspace:*",
     "effect": "3.16.16"
   },
   "devDependencies": {

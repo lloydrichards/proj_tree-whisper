@@ -1,6 +1,6 @@
 import { HttpApiBuilder } from "@effect/platform";
 import { Api } from "@repo/domain";
-import { Effect } from "effect";
+import { Effect, Layer } from "effect";
 import { SpeciesManager } from "../services/SpeciesManager";
 
 export const SpeciesGroupLive = HttpApiBuilder.group(
@@ -23,4 +23,4 @@ export const SpeciesGroupLive = HttpApiBuilder.group(
         )
         .handle("delete", ({ payload: { id } }) => manager.del(id));
     })
-);
+).pipe(Layer.provide(SpeciesManager.Default));
