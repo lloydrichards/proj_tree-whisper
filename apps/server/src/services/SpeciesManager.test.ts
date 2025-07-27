@@ -38,10 +38,10 @@ eIt.layer(layer, { timeout: "30 seconds" })("SpeciesManager", (it) => {
       const repo = yield* SpeciesManager;
       const mockedSpecies = Species.makeMock();
       const createdSpecies = yield* repo.create(mockedSpecies);
-      const foundSpecies = yield* repo.findById(createdSpecies.id);
+      const foundSpecies = yield* repo.findById(createdSpecies.scientificName);
 
       expect(foundSpecies).toBeDefined();
-      expect(foundSpecies.id).toBe(createdSpecies.id);
+      expect(foundSpecies.scientificName).toBe(createdSpecies.scientificName);
     })
   );
 
@@ -51,7 +51,7 @@ eIt.layer(layer, { timeout: "30 seconds" })("SpeciesManager", (it) => {
       const repo = yield* SpeciesManager;
       const mockedSpecies = Species.makeMock({ altNames: [] });
       const createdSpecies = yield* repo.create(mockedSpecies);
-      const foundSpecies = yield* repo.findById(createdSpecies.id);
+      const foundSpecies = yield* repo.findById(createdSpecies.scientificName);
 
       expect(foundSpecies).toBeDefined();
       expect(foundSpecies.altNames).toHaveLength(0);
