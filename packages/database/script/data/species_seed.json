@@ -20,9 +20,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -85,22 +83,15 @@
     "scientific_name": "Carpinus betulus",
     "genus": "Carpinus",
     "family": "Betulaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#FFFF00"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 7,
     "humidity": 5,
@@ -130,26 +121,15 @@
     "scientific_name": "Platanus occidentalis",
     "genus": "Platanus",
     "family": "Platanaceae",
-    "flower_color": [
-      "#008000"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#008000"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 8,
@@ -177,26 +157,15 @@
     "scientific_name": "Betula pendula",
     "genus": "Betula",
     "family": "Betulaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#FFFF00"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Thicket Forming",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 8,
@@ -228,10 +197,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_months": [],
     "light": 8,
     "humidity": 4,
@@ -268,21 +234,15 @@
     "scientific_name": "Aesculus hippocastanum",
     "genus": "Aesculus",
     "family": "Sapindaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
-    "flower_months": [
-      "MAY"
-    ],
+    "flower_color": ["#FFFFFF"],
+    "flower_months": ["MAY"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 7,
     "humidity": 6,
@@ -296,32 +256,19 @@
   {
     "id": "Fraxinus excelsior",
     "common_name": "European ash",
-    "alt_names": [
-      "European ash",
-      "Ash",
-      "Black ash",
-      "Esche",
-      "Common Ash"
-    ],
+    "alt_names": ["European ash", "Ash", "Black ash", "Esche", "Common Ash"],
     "scientific_name": "Fraxinus excelsior",
     "genus": "Fraxinus",
     "family": "Oleaceae",
-    "flower_color": [
-      "#A52A2A"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#A52A2A"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 7,
     "humidity": 7,
@@ -385,27 +332,15 @@
     "scientific_name": "Pinus sylvestris",
     "genus": "Pinus",
     "family": "Pinaceae",
-    "flower_color": [
-      "#FFFF00",
-      "#800080"
-    ],
-    "flower_months": [
-      "MAY",
-      "JUN"
-    ],
+    "flower_color": ["#FFFF00", "#800080"],
+    "flower_months": ["MAY", "JUN"],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 8,
@@ -434,9 +369,7 @@
     "scientific_name": "Prunus avium",
     "genus": "Prunus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
+    "flower_color": ["#FFFFFF"],
     "flower_months": [],
     "foliage_texture": null,
     "foliage_color": [],
@@ -444,9 +377,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 7,
     "humidity": 5,
@@ -484,9 +415,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": 7,
@@ -515,22 +444,15 @@
     "scientific_name": "Quercus robur",
     "genus": "Quercus",
     "family": "Fagaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#FFFF00"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 7,
     "humidity": 5,
@@ -561,22 +483,15 @@
     "scientific_name": "Robinia pseudoacacia",
     "genus": "Robinia",
     "family": "Fabaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
-    "flower_months": [
-      "MAY",
-      "JUN"
-    ],
+    "flower_color": ["#FFFFFF"],
+    "flower_months": ["MAY", "JUN"],
     "foliage_texture": "medium",
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 8,
@@ -628,18 +543,12 @@
     "flower_color": [],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": 7,
@@ -670,25 +579,15 @@
     "scientific_name": "Tilia cordata",
     "genus": "Tilia",
     "family": "Malvaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
-    "flower_months": [
-      "JUL"
-    ],
+    "flower_color": ["#FFFFFF"],
+    "flower_months": ["JUL"],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": 7,
@@ -717,26 +616,15 @@
     "scientific_name": "Pyrus communis",
     "genus": "Pyrus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#FFFFFF"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#FFFF00"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#FFFF00"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 6,
@@ -762,22 +650,15 @@
     "scientific_name": "Fagus sylvatica",
     "genus": "Fagus",
     "family": "Fagaceae",
-    "flower_color": [
-      "#008000"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#008000"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 7,
     "humidity": 7,
@@ -809,9 +690,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 8,
@@ -836,9 +715,7 @@
     "scientific_name": "Prunus serrulata",
     "genus": "Prunus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#800080"
-    ],
+    "flower_color": ["#800080"],
     "flower_months": [],
     "foliage_texture": null,
     "foliage_color": [],
@@ -846,9 +723,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -884,9 +759,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 4,
@@ -947,22 +820,15 @@
     "scientific_name": "Prunus spinosa",
     "genus": "Prunus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
-    "flower_months": [
-      "APR"
-    ],
+    "flower_color": ["#FFFFFF"],
+    "flower_months": ["APR"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_months": [],
     "light": 7,
     "humidity": 5,
@@ -1006,10 +872,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Crown",
-    "growth_habit": [
-      "SHRUB",
-      "TREE"
-    ],
+    "growth_habit": ["SHRUB", "TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -1073,26 +936,15 @@
     "scientific_name": "Juglans regia",
     "genus": "Juglans",
     "family": "Juglandaceae",
-    "flower_color": [
-      "#008000"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#008000"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 8,
@@ -1167,22 +1019,15 @@
     "scientific_name": "Prunus domestica",
     "genus": "Prunus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
-    "flower_months": [
-      "MAR",
-      "APR"
-    ],
+    "flower_color": ["#FFFFFF"],
+    "flower_months": ["MAR", "APR"],
     "foliage_texture": "coarse",
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Rhizomatous",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 7,
@@ -1197,30 +1042,19 @@
   {
     "id": "Fraxinus ornus",
     "common_name": "Manna",
-    "alt_names": [
-      "Manna",
-      "Manna ash",
-      "Flowering ash",
-      "Flake Manna"
-    ],
+    "alt_names": ["Manna", "Manna ash", "Flowering ash", "Flake Manna"],
     "scientific_name": "Fraxinus ornus",
     "genus": "Fraxinus",
     "family": "Oleaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
-    "flower_months": [
-      "MAY"
-    ],
+    "flower_color": ["#FFFFFF"],
+    "flower_months": ["MAY"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 5,
@@ -1260,22 +1094,15 @@
     "scientific_name": "Prunus domestica",
     "genus": "Prunus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
-    "flower_months": [
-      "MAR",
-      "APR"
-    ],
+    "flower_color": ["#FFFFFF"],
+    "flower_months": ["MAR", "APR"],
     "foliage_texture": "coarse",
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Rhizomatous",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 7,
@@ -1318,9 +1145,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 7,
@@ -1352,21 +1177,15 @@
     "scientific_name": "Celtis australis",
     "genus": "Celtis",
     "family": "Cannabaceae",
-    "flower_color": [
-      "#008000"
-    ],
-    "flower_months": [
-      "APR"
-    ],
+    "flower_color": ["#008000"],
+    "flower_months": ["APR"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 5,
@@ -1390,28 +1209,15 @@
     "scientific_name": "Larix decidua",
     "genus": "Larix",
     "family": "Pinaceae",
-    "flower_color": [
-      "#008000",
-      "#800080"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY",
-      "JUN"
-    ],
+    "flower_color": ["#008000", "#800080"],
+    "flower_months": ["APR", "MAY", "JUN"],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#FFFF00"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#FFFF00"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": 8,
@@ -1443,9 +1249,7 @@
     "scientific_name": "Tilia platyphyllos",
     "genus": "Tilia",
     "family": "Malvaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
+    "flower_color": ["#FFFFFF"],
     "flower_months": [],
     "foliage_texture": null,
     "foliage_color": [],
@@ -1453,9 +1257,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -1492,9 +1294,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 5,
@@ -1533,18 +1333,12 @@
     "flower_color": [],
     "flower_months": [],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -1582,21 +1376,15 @@
     "scientific_name": "Aesculus hippocastanum",
     "genus": "Aesculus",
     "family": "Sapindaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
-    "flower_months": [
-      "MAY"
-    ],
+    "flower_color": ["#FFFFFF"],
+    "flower_months": ["MAY"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 7,
     "humidity": 6,
@@ -1610,32 +1398,19 @@
   {
     "id": "Ulmus",
     "common_name": "Slippery elm",
-    "alt_names": [
-      "Slippery elm",
-      "Red elm",
-      "Gray Elm",
-      "Soft Elm"
-    ],
+    "alt_names": ["Slippery elm", "Red elm", "Gray Elm", "Soft Elm"],
     "scientific_name": "Ulmus rubra",
     "genus": "Ulmus",
     "family": "Ulmaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -1650,17 +1425,11 @@
   {
     "id": "Acer cappadocicum",
     "common_name": "Cappadocian maple",
-    "alt_names": [
-      "Cappadocian maple",
-      "Caucasian maple",
-      "Coliseum maple"
-    ],
+    "alt_names": ["Cappadocian maple", "Caucasian maple", "Coliseum maple"],
     "scientific_name": "Acer cappadocicum",
     "genus": "Acer",
     "family": "Sapindaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": null,
     "foliage_color": [],
@@ -1668,9 +1437,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 7,
     "humidity": 5,
@@ -1695,23 +1462,15 @@
     "scientific_name": "Corylus colurna",
     "genus": "Corylus",
     "family": "Betulaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
-    "flower_months": [
-      "JAN",
-      "FEB",
-      "MAR"
-    ],
+    "flower_color": ["#FFFF00"],
+    "flower_months": ["JAN", "FEB", "MAR"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -1735,22 +1494,15 @@
     "scientific_name": "Prunus padus",
     "genus": "Prunus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
+    "flower_color": ["#FFFFFF"],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
+    "foliage_color": ["#008000"],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "SHRUB",
-      "TREE"
-    ],
+    "growth_habit": ["SHRUB", "TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": 6,
@@ -1846,9 +1598,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 7,
     "humidity": 5,
@@ -1877,18 +1627,12 @@
     "flower_color": [],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#FFFF00"
-    ],
-    "fruit_color": [
-      "#FFFF00"
-    ],
+    "foliage_color": ["#FFFF00"],
+    "fruit_color": ["#FFFF00"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -1927,9 +1671,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -1962,10 +1704,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_months": [],
     "light": 7,
     "humidity": 6,
@@ -1994,26 +1733,15 @@
     "scientific_name": "Juglans regia",
     "genus": "Juglans",
     "family": "Juglandaceae",
-    "flower_color": [
-      "#008000"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#008000"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 8,
@@ -2028,11 +1756,7 @@
   {
     "id": "Quercus cerris",
     "common_name": "Turkey oak",
-    "alt_names": [
-      "Turkey oak",
-      "European turkey oak",
-      "Hairy Oak"
-    ],
+    "alt_names": ["Turkey oak", "European turkey oak", "Hairy Oak"],
     "scientific_name": "Quercus cerris",
     "genus": "Quercus",
     "family": "Fagaceae",
@@ -2078,10 +1802,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "SHRUB",
-      "TREE"
-    ],
+    "growth_habit": ["SHRUB", "TREE"],
     "growth_months": [],
     "light": 5,
     "humidity": 5,
@@ -2116,23 +1837,15 @@
     "scientific_name": "Liriodendron tulipifera",
     "genus": "Liriodendron",
     "family": "Magnoliaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
+    "flower_color": ["#FFFFFF"],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -2162,23 +1875,15 @@
     "scientific_name": "Paulownia tomentosa",
     "genus": "Paulownia",
     "family": "Paulowniaceae",
-    "flower_color": [
-      "#0000FF"
-    ],
+    "flower_color": ["#0000FF"],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Crown",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -2193,11 +1898,7 @@
   {
     "id": "Cydonia oblonga",
     "common_name": "Quince",
-    "alt_names": [
-      "Quince",
-      "Common quince",
-      "Quince tree"
-    ],
+    "alt_names": ["Quince", "Common quince", "Quince tree"],
     "scientific_name": "Cydonia oblonga",
     "genus": "Cydonia",
     "family": "Rosaceae",
@@ -2223,9 +1924,7 @@
   {
     "id": "Picea omorika",
     "common_name": "Serbian spruce",
-    "alt_names": [
-      "Serbian spruce"
-    ],
+    "alt_names": ["Serbian spruce"],
     "scientific_name": "Picea omorika",
     "genus": "Picea",
     "family": "Pinaceae",
@@ -2262,23 +1961,15 @@
     "scientific_name": "Koelreuteria paniculata",
     "genus": "Koelreuteria",
     "family": "Sapindaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -2312,9 +2003,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 6,
@@ -2340,27 +2029,15 @@
     "scientific_name": "Alnus incana",
     "genus": "Alnus",
     "family": "Betulaceae",
-    "flower_color": [
-      "#008000"
-    ],
-    "flower_months": [
-      "FEB",
-      "MAR"
-    ],
+    "flower_color": ["#008000"],
+    "flower_months": ["FEB", "MAR"],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Thicket Forming",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 7,
@@ -2375,30 +2052,19 @@
   {
     "id": "Populus x canadensis",
     "common_name": "Fremont's cottonwood",
-    "alt_names": [
-      "Fremont's cottonwood",
-      "Cottonwood"
-    ],
+    "alt_names": ["Fremont's cottonwood", "Cottonwood"],
     "scientific_name": "Populus fremontii",
     "genus": "Populus",
     "family": "Salicaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
+    "flower_color": ["#FFFFFF"],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#FFFFFF"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#FFFFFF"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -2431,10 +2097,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "SHRUB",
-      "TREE"
-    ],
+    "growth_habit": ["SHRUB", "TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -2460,26 +2123,15 @@
     "scientific_name": "Cornus mas",
     "genus": "Cornus",
     "family": "Cornaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
-    "flower_months": [
-      "MAR"
-    ],
+    "flower_color": ["#FFFF00"],
+    "flower_months": ["MAR"],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#FF0000"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#FF0000"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": 8,
@@ -2519,10 +2171,7 @@
   {
     "id": "Sorbus intermedia",
     "common_name": "Swedish whitebeam",
-    "alt_names": [
-      "Swedish whitebeam",
-      "Scandinavian Beam Tree"
-    ],
+    "alt_names": ["Swedish whitebeam", "Scandinavian Beam Tree"],
     "scientific_name": "Scandosorbus intermedia",
     "genus": "Scandosorbus",
     "family": "Rosaceae",
@@ -2631,22 +2280,15 @@
     "scientific_name": "Fraxinus angustifolia",
     "genus": "Fraxinus",
     "family": "Oleaceae",
-    "flower_color": [
-      "#A52A2A"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#A52A2A"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 8,
@@ -2683,9 +2325,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 8,
@@ -2727,9 +2367,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Crown",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -2765,22 +2403,15 @@
     "scientific_name": "Sorbus aucuparia",
     "genus": "Sorbus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
+    "flower_color": ["#FFFFFF"],
     "flower_months": [],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#008000"
-    ],
+    "foliage_color": ["#008000"],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 7,
@@ -2812,9 +2443,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": 8,
@@ -2829,10 +2458,7 @@
   {
     "id": "Cercidiphyllum japonicum",
     "common_name": "Katsura tree",
-    "alt_names": [
-      "Katsura tree",
-      "Katsura"
-    ],
+    "alt_names": ["Katsura tree", "Katsura"],
     "scientific_name": "Cercidiphyllum japonicum",
     "genus": "Cercidiphyllum",
     "family": "Cercidiphyllaceae",
@@ -2844,9 +2470,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -2905,10 +2529,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": 8,
@@ -2923,10 +2544,7 @@
   {
     "id": "Picea orientalis",
     "common_name": "Caucasian spruce",
-    "alt_names": [
-      "Caucasian spruce",
-      "Oriental spruce"
-    ],
+    "alt_names": ["Caucasian spruce", "Oriental spruce"],
     "scientific_name": "Picea orientalis",
     "genus": "Picea",
     "family": "Pinaceae",
@@ -2961,22 +2579,15 @@
     "scientific_name": "Ostrya carpinifolia",
     "genus": "Ostrya",
     "family": "Betulaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#FFFF00"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 5,
@@ -3009,9 +2620,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -3048,10 +2657,7 @@
     "scientific_name": "Thuja occidentalis",
     "genus": "Thuja",
     "family": "Cupressaceae",
-    "flower_color": [
-      "#A52A2A",
-      "#FFFF00"
-    ],
+    "flower_color": ["#A52A2A", "#FFFF00"],
     "flower_months": [],
     "foliage_texture": "fine",
     "foliage_color": [],
@@ -3059,9 +2665,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -3206,24 +2810,15 @@
     "scientific_name": "Thuja plicata",
     "genus": "Thuja",
     "family": "Cupressaceae",
-    "flower_color": [
-      "#A52A2A",
-      "#FFFF00"
-    ],
+    "flower_color": ["#A52A2A", "#FFFF00"],
     "flower_months": [],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": 8,
@@ -3291,9 +2886,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 7,
     "humidity": 7,
@@ -3328,10 +2921,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -3402,29 +2992,19 @@
   {
     "id": "Aesculus flava",
     "common_name": "Sweet buckeye",
-    "alt_names": [
-      "Sweet buckeye",
-      "Yellow buckeye"
-    ],
+    "alt_names": ["Sweet buckeye", "Yellow buckeye"],
     "scientific_name": "Aesculus flava",
     "genus": "Aesculus",
     "family": "Sapindaceae",
     "flower_color": [],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -3506,22 +3086,15 @@
     "scientific_name": "Platanus orientalis",
     "genus": "Platanus",
     "family": "Platanaceae",
-    "flower_color": [
-      "#008000"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#008000"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 7,
@@ -3544,23 +3117,15 @@
     "scientific_name": "Magnolia tripetala",
     "genus": "Magnolia",
     "family": "Magnoliaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
+    "flower_color": ["#FFFFFF"],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#FF0000"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#FF0000"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -3575,17 +3140,11 @@
   {
     "id": "Quercus petraea",
     "common_name": "Sessile oak",
-    "alt_names": [
-      "Sessile oak",
-      "Durmast oak",
-      "Sessile oak, durmast oak"
-    ],
+    "alt_names": ["Sessile oak", "Durmast oak", "Sessile oak, durmast oak"],
     "scientific_name": "Quercus petraea",
     "genus": "Quercus",
     "family": "Fagaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": null,
     "foliage_color": [],
@@ -3593,9 +3152,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 5,
@@ -3628,9 +3185,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -3694,9 +3249,7 @@
     "scientific_name": "Cedrus libani",
     "genus": "Cedrus",
     "family": "Pinaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": null,
     "foliage_color": [],
@@ -3704,9 +3257,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 7,
     "humidity": 5,
@@ -3817,30 +3368,19 @@
   {
     "id": "Metasequoia glyptostroboides",
     "common_name": "Dawn redwood",
-    "alt_names": [
-      "Dawn Redwood",
-      "Dawn cypress",
-      "Water fir",
-      "Dawn-redwood"
-    ],
+    "alt_names": ["Dawn Redwood", "Dawn cypress", "Water fir", "Dawn-redwood"],
     "scientific_name": "Metasequoia glyptostroboides",
     "genus": "Metasequoia",
     "family": "Cupressaceae",
     "flower_color": [],
     "flower_months": [],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -3936,9 +3476,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -3952,11 +3490,7 @@
   {
     "id": "Sorbus aria",
     "common_name": "Chess-apple",
-    "alt_names": [
-      "Chess-apple",
-      "Common whitebeam",
-      "Whitebeam"
-    ],
+    "alt_names": ["Chess-apple", "Common whitebeam", "Whitebeam"],
     "scientific_name": "Sorbus aria",
     "genus": "Sorbus",
     "family": "Rosaceae",
@@ -3982,10 +3516,7 @@
   {
     "id": "Magnolia x soulangeana",
     "common_name": "Chinese magnolia",
-    "alt_names": [
-      "Chinese magnolia",
-      "Saucer magnolia"
-    ],
+    "alt_names": ["Chinese magnolia", "Saucer magnolia"],
     "scientific_name": "Magnolia × soulangeana",
     "genus": "Magnolia",
     "family": "Magnoliaceae",
@@ -4028,18 +3559,12 @@
     "flower_color": [],
     "flower_months": [],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -4054,30 +3579,19 @@
   {
     "id": "Larix kaempferi",
     "common_name": "Japanese larch",
-    "alt_names": [
-      "Japanese larch"
-    ],
+    "alt_names": ["Japanese larch"],
     "scientific_name": "Larix kaempferi",
     "genus": "Larix",
     "family": "Pinaceae",
-    "flower_color": [
-      "#008000",
-      "#800080"
-    ],
+    "flower_color": ["#008000", "#800080"],
     "flower_months": [],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 8,
@@ -4092,29 +3606,19 @@
   {
     "id": "Alnus cordata",
     "common_name": "Italian alder",
-    "alt_names": [
-      "Italian alder",
-      "Alder of Corsica",
-      "Hartbladige Els"
-    ],
+    "alt_names": ["Italian alder", "Alder of Corsica", "Hartbladige Els"],
     "scientific_name": "Alnus cordata",
     "genus": "Alnus",
     "family": "Betulaceae",
-    "flower_color": [
-      "#008000"
-    ],
-    "flower_months": [
-      "FEB"
-    ],
+    "flower_color": ["#008000"],
+    "flower_months": ["FEB"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 7,
@@ -4128,27 +3632,19 @@
   {
     "id": "Acer monspessulanum",
     "common_name": "Montpellier maple",
-    "alt_names": [
-      "Montpellier maple"
-    ],
+    "alt_names": ["Montpellier maple"],
     "scientific_name": "Acer monspessulanum",
     "genus": "Acer",
     "family": "Sapindaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
-    "flower_months": [
-      "APR"
-    ],
+    "flower_color": ["#FFFF00"],
+    "flower_months": ["APR"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 4,
@@ -4180,9 +3676,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 7,
@@ -4208,9 +3702,7 @@
     "scientific_name": "Fraxinus pennsylvanica",
     "genus": "Fraxinus",
     "family": "Oleaceae",
-    "flower_color": [
-      "#A52A2A"
-    ],
+    "flower_color": ["#A52A2A"],
     "flower_months": [],
     "foliage_texture": "coarse",
     "foliage_color": [],
@@ -4218,9 +3710,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Crown",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 7,
@@ -4260,10 +3750,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "SHRUB",
-      "TREE"
-    ],
+    "growth_habit": ["SHRUB", "TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": 7,
@@ -4291,23 +3778,15 @@
     "scientific_name": "Zelkova serrata",
     "genus": "Zelkova",
     "family": "Ulmaceae",
-    "flower_color": [
-      "#008000"
-    ],
+    "flower_color": ["#008000"],
     "flower_months": [],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Crown",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -4366,21 +3845,15 @@
     "scientific_name": "Abies nordmanniana",
     "genus": "Abies",
     "family": "Pinaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
-    "flower_months": [
-      "APR"
-    ],
+    "flower_color": ["#FFFF00"],
+    "flower_months": ["APR"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 7,
     "humidity": 6,
@@ -4412,9 +3885,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -4428,17 +3899,11 @@
   {
     "id": "Quercus frainetto",
     "common_name": "Hungarian oak",
-    "alt_names": [
-      "Hungarian oak",
-      "Italian oak",
-      "Macedonian Oak"
-    ],
+    "alt_names": ["Hungarian oak", "Italian oak", "Macedonian Oak"],
     "scientific_name": "Quercus frainetto",
     "genus": "Quercus",
     "family": "Fagaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": null,
     "foliage_color": [],
@@ -4446,9 +3911,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 4,
@@ -4512,9 +3975,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -4558,10 +4019,7 @@
   {
     "id": "Acer x freemanii",
     "common_name": "Freeman maple",
-    "alt_names": [
-      "Freeman maple",
-      "Freeman's maple"
-    ],
+    "alt_names": ["Freeman maple", "Freeman's maple"],
     "scientific_name": "Acer × freemanii",
     "genus": "Acer",
     "family": "Sapindaceae",
@@ -4587,11 +4045,7 @@
   {
     "id": "Acer truncatum",
     "common_name": "Shantung maple",
-    "alt_names": [
-      "Shantung maple",
-      "Purple-blow maple",
-      "Shandong Maple"
-    ],
+    "alt_names": ["Shantung maple", "Purple-blow maple", "Shandong Maple"],
     "scientific_name": "Acer truncatum",
     "genus": "Acer",
     "family": "Sapindaceae",
@@ -4666,23 +4120,15 @@
     "scientific_name": "Sequoiadendron giganteum",
     "genus": "Sequoiadendron",
     "family": "Cupressaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -4727,9 +4173,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 8,
@@ -4790,18 +4234,12 @@
     "flower_color": [],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 7,
@@ -4865,23 +4303,15 @@
     "scientific_name": "Prunus armeniaca",
     "genus": "Prunus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
-    "flower_months": [
-      "FEB",
-      "MAR",
-      "APR"
-    ],
+    "flower_color": ["#FFFFFF"],
+    "flower_months": ["FEB", "MAR", "APR"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 5,
@@ -4907,22 +4337,15 @@
     "scientific_name": "Prunus spinosa",
     "genus": "Prunus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
-    "flower_months": [
-      "APR"
-    ],
+    "flower_color": ["#FFFFFF"],
+    "flower_months": ["APR"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_months": [],
     "light": 7,
     "humidity": 5,
@@ -4982,23 +4405,15 @@
     "scientific_name": "Morus alba",
     "genus": "Morus",
     "family": "Moraceae",
-    "flower_color": [
-      "#008000"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#008000"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": "medium",
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": 7,
@@ -5104,22 +4519,15 @@
     "scientific_name": "Prunus domestica",
     "genus": "Prunus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
-    "flower_months": [
-      "MAR",
-      "APR"
-    ],
+    "flower_color": ["#FFFFFF"],
+    "flower_months": ["MAR", "APR"],
     "foliage_texture": "coarse",
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Rhizomatous",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 7,
@@ -5134,28 +4542,19 @@
   {
     "id": "Pyrus calleryana",
     "common_name": "Callery pear",
-    "alt_names": [
-      "Callery pear",
-      "Bradford pear"
-    ],
+    "alt_names": ["Callery pear", "Bradford pear"],
     "scientific_name": "Pyrus calleryana",
     "genus": "Pyrus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
+    "flower_color": ["#FFFFFF"],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
+    "foliage_color": ["#008000"],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -5256,10 +4655,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -5274,32 +4670,19 @@
   {
     "id": "Betula nigra",
     "common_name": "Red birch",
-    "alt_names": [
-      "Red birch",
-      "River birch",
-      "Black birch",
-      "Water birch"
-    ],
+    "alt_names": ["Red birch", "River birch", "Black birch", "Water birch"],
     "scientific_name": "Betula nigra",
     "genus": "Betula",
     "family": "Betulaceae",
-    "flower_color": [
-      "#A52A2A"
-    ],
+    "flower_color": ["#A52A2A"],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -5335,9 +4718,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -5372,9 +4753,7 @@
     "scientific_name": "Sambucus nigra",
     "genus": "Sambucus",
     "family": "Viburnaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
+    "flower_color": ["#FFFFFF"],
     "flower_months": [],
     "foliage_texture": null,
     "foliage_color": [],
@@ -5382,10 +4761,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_months": [],
     "light": 5,
     "humidity": 5,
@@ -5432,10 +4808,7 @@
   {
     "id": "Ulmus x hollandica",
     "common_name": "Dutch elm",
-    "alt_names": [
-      "Dutch elm",
-      "Holland elm"
-    ],
+    "alt_names": ["Dutch elm", "Holland elm"],
     "scientific_name": "Ulmus × hollandica",
     "genus": "Ulmus",
     "family": "Ulmaceae",
@@ -5571,11 +4944,7 @@
   {
     "id": "Populus simonii",
     "common_name": "Simon poplar",
-    "alt_names": [
-      "Simon poplar",
-      "Simon's Poplar",
-      "Chinese Poplar"
-    ],
+    "alt_names": ["Simon poplar", "Simon's Poplar", "Chinese Poplar"],
     "scientific_name": "Populus simonii",
     "genus": "Populus",
     "family": "Salicaceae",
@@ -5587,9 +4956,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 8,
@@ -5603,9 +4970,7 @@
   {
     "id": "Pterocarya rhoifolia",
     "common_name": "Japanese wingnut",
-    "alt_names": [
-      "Japanese wingnut"
-    ],
+    "alt_names": ["Japanese wingnut"],
     "scientific_name": "Pterocarya rhoifolia",
     "genus": "Pterocarya",
     "family": "Juglandaceae",
@@ -5649,26 +5014,15 @@
     "scientific_name": "Populus balsamifera",
     "genus": "Populus",
     "family": "Salicaceae",
-    "flower_color": [
-      "#008000"
-    ],
-    "flower_months": [
-      "MAR",
-      "APR"
-    ],
+    "flower_color": ["#008000"],
+    "flower_months": ["MAR", "APR"],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#FFFF00"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#FFFF00"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 8,
@@ -5706,9 +5060,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 8,
@@ -5781,11 +5133,7 @@
   {
     "id": "Populus x canescens",
     "common_name": "Grey poplar",
-    "alt_names": [
-      "Grey poplar",
-      "Gray poplar",
-      "Matchwood poplar"
-    ],
+    "alt_names": ["Grey poplar", "Gray poplar", "Matchwood poplar"],
     "scientific_name": "Populus × canescens",
     "genus": "Populus",
     "family": "Salicaceae",
@@ -5868,10 +5216,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "SHRUB",
-      "TREE"
-    ],
+    "growth_habit": ["SHRUB", "TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": 7,
@@ -5920,9 +5265,7 @@
     "scientific_name": "Prunus lusitanica",
     "genus": "Prunus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
+    "flower_color": ["#FFFFFF"],
     "flower_months": [],
     "foliage_texture": null,
     "foliage_color": [],
@@ -5930,10 +5273,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_months": [],
     "light": 8,
     "humidity": 4,
@@ -5961,23 +5301,15 @@
     "scientific_name": "Prunus mahaleb",
     "genus": "Prunus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#FFFFFF"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "SHRUB",
-      "TREE"
-    ],
+    "growth_habit": ["SHRUB", "TREE"],
     "growth_months": [],
     "light": 7,
     "humidity": 5,
@@ -6003,22 +5335,15 @@
     "scientific_name": "Ulmus laevis",
     "genus": "Ulmus",
     "family": "Ulmaceae",
-    "flower_color": [
-      "#800080"
-    ],
-    "flower_months": [
-      "MAR",
-      "APR"
-    ],
+    "flower_color": ["#800080"],
+    "flower_months": ["MAR", "APR"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 7,
     "humidity": 8,
@@ -6050,9 +5375,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 7,
@@ -6067,12 +5390,7 @@
   {
     "id": "Betula davurica",
     "common_name": "Canoe birch",
-    "alt_names": [
-      "Canoe birch",
-      "Paper birch",
-      "White birch",
-      "Silver Birch"
-    ],
+    "alt_names": ["Canoe birch", "Paper birch", "White birch", "Silver Birch"],
     "scientific_name": "Betula papyrifera",
     "genus": "Betula",
     "family": "Betulaceae",
@@ -6098,11 +5416,7 @@
   {
     "id": "Mespilus germanica",
     "common_name": "Medlar",
-    "alt_names": [
-      "Medlar",
-      "Gnespolâr",
-      "Common medlar"
-    ],
+    "alt_names": ["Medlar", "Gnespolâr", "Common medlar"],
     "scientific_name": "Mespilus germanica",
     "genus": "Mespilus",
     "family": "Rosaceae",
@@ -6138,9 +5452,7 @@
     "scientific_name": "Prunus persica",
     "genus": "Prunus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#800080"
-    ],
+    "flower_color": ["#800080"],
     "flower_months": [],
     "foliage_texture": null,
     "foliage_color": [],
@@ -6148,9 +5460,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -6164,11 +5474,7 @@
   {
     "id": "Quercus ilex",
     "common_name": "Evergreen oak",
-    "alt_names": [
-      "Evergreen oak",
-      "Holly oak",
-      "Holm oak"
-    ],
+    "alt_names": ["Evergreen oak", "Holly oak", "Holm oak"],
     "scientific_name": "Quercus ilex",
     "genus": "Quercus",
     "family": "Fagaceae",
@@ -6194,11 +5500,7 @@
   {
     "id": "Quercus",
     "common_name": "Valley oak",
-    "alt_names": [
-      "Valley oak",
-      "California white oak",
-      "Roble"
-    ],
+    "alt_names": ["Valley oak", "California white oak", "Roble"],
     "scientific_name": "Quercus lobata",
     "genus": "Quercus",
     "family": "Fagaceae",
@@ -6210,9 +5512,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Crown",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -6227,11 +5527,7 @@
   {
     "id": "Betula ermanii",
     "common_name": "Russian rock birch",
-    "alt_names": [
-      "Russian rock birch",
-      "Erman's birch",
-      "Stone Birch"
-    ],
+    "alt_names": ["Russian rock birch", "Erman's birch", "Stone Birch"],
     "scientific_name": "Betula ermanii",
     "genus": "Betula",
     "family": "Betulaceae",
@@ -6267,23 +5563,15 @@
     "scientific_name": "Cedrus deodara",
     "genus": "Cedrus",
     "family": "Pinaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#008000"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#008000"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -6298,11 +5586,7 @@
   {
     "id": "Nothofagus antarctica",
     "common_name": "Antarctic beech",
-    "alt_names": [
-      "Antarctic Beech",
-      "Nirre",
-      "Antartic Beech"
-    ],
+    "alt_names": ["Antarctic Beech", "Nirre", "Antartic Beech"],
     "scientific_name": "Nothofagus antarctica",
     "genus": "Nothofagus",
     "family": "Nothofagaceae",
@@ -6375,26 +5659,15 @@
     "scientific_name": "Juglans regia",
     "genus": "Juglans",
     "family": "Juglandaceae",
-    "flower_color": [
-      "#008000"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#008000"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 8,
@@ -6429,9 +5702,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -6464,9 +5735,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -6532,18 +5801,12 @@
     "flower_color": [],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -6599,28 +5862,15 @@
     "scientific_name": "Larix decidua",
     "genus": "Larix",
     "family": "Pinaceae",
-    "flower_color": [
-      "#008000",
-      "#800080"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY",
-      "JUN"
-    ],
+    "flower_color": ["#008000", "#800080"],
+    "flower_months": ["APR", "MAY", "JUN"],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#FFFF00"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#FFFF00"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": 8,
@@ -6646,23 +5896,15 @@
     "scientific_name": "Malus sylvestris",
     "genus": "Malus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
+    "flower_color": ["#FFFFFF"],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#FF0000"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#FF0000"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": 5,
@@ -6695,9 +5937,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -6767,9 +6007,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": 7,
@@ -6870,10 +6108,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": 8,
@@ -6888,10 +6123,7 @@
   {
     "id": "Acer buergerianum",
     "common_name": "Trident maple",
-    "alt_names": [
-      "Trident maple",
-      "Taiwan Trident Maple"
-    ],
+    "alt_names": ["Trident maple", "Taiwan Trident Maple"],
     "scientific_name": "Acer buergerianum",
     "genus": "Acer",
     "family": "Sapindaceae",
@@ -6968,17 +6200,11 @@
     "scientific_name": "Malus × floribunda",
     "genus": "Malus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#800080"
-    ],
+    "flower_color": ["#800080"],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#FF0000"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#FF0000"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
@@ -7022,10 +6248,7 @@
   {
     "id": "Pinus halepensis",
     "common_name": "Jerusalem pine",
-    "alt_names": [
-      "Jerusalem pine",
-      "Aleppo pine"
-    ],
+    "alt_names": ["Jerusalem pine", "Aleppo pine"],
     "scientific_name": "Pinus halepensis",
     "genus": "Pinus",
     "family": "Pinaceae",
@@ -7037,9 +6260,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 3,
@@ -7053,10 +6274,7 @@
   {
     "id": "Cornus controversa",
     "common_name": "Giant dogwood",
-    "alt_names": [
-      "Giant dogwood",
-      "Table Dogwood"
-    ],
+    "alt_names": ["Giant dogwood", "Table Dogwood"],
     "scientific_name": "Cornus controversa",
     "genus": "Cornus",
     "family": "Cornaceae",
@@ -7082,32 +6300,19 @@
   {
     "id": "Fraxinus",
     "common_name": "European ash",
-    "alt_names": [
-      "European ash",
-      "Ash",
-      "Black ash",
-      "Esche",
-      "Common Ash"
-    ],
+    "alt_names": ["European ash", "Ash", "Black ash", "Esche", "Common Ash"],
     "scientific_name": "Fraxinus excelsior",
     "genus": "Fraxinus",
     "family": "Oleaceae",
-    "flower_color": [
-      "#A52A2A"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#A52A2A"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 7,
     "humidity": 7,
@@ -7179,18 +6384,12 @@
     "flower_color": [],
     "flower_months": [],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 8,
@@ -7205,18 +6404,11 @@
   {
     "id": "Toona sinensis",
     "common_name": "Red toon",
-    "alt_names": [
-      "Red toon",
-      "Chinese Cedar",
-      "Chinese Toon",
-      "Chinese Toona"
-    ],
+    "alt_names": ["Red toon", "Chinese Cedar", "Chinese Toon", "Chinese Toona"],
     "scientific_name": "Toona sinensis",
     "genus": "Toona",
     "family": "Meliaceae",
-    "flower_color": [
-      "#0000FF"
-    ],
+    "flower_color": ["#0000FF"],
     "flower_months": [],
     "foliage_texture": null,
     "foliage_color": [],
@@ -7224,9 +6416,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 7,
     "humidity": 4,
@@ -7349,32 +6539,19 @@
   {
     "id": "Morus nigra",
     "common_name": "Black mulberry",
-    "alt_names": [
-      "Black mulberry",
-      "СпекI",
-      "Mulberry",
-      "Common Mulberry"
-    ],
+    "alt_names": ["Black mulberry", "СпекI", "Mulberry", "Common Mulberry"],
     "scientific_name": "Morus nigra",
     "genus": "Morus",
     "family": "Moraceae",
-    "flower_color": [
-      "#008000"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#008000"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "SHRUB",
-      "TREE"
-    ],
+    "growth_habit": ["SHRUB", "TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 5,
@@ -7405,18 +6582,12 @@
     "flower_color": [],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": 8,
@@ -7444,23 +6615,15 @@
     "scientific_name": "Rhamnus cathartica",
     "genus": "Rhamnus",
     "family": "Rhamnaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
-    "flower_months": [
-      "MAY",
-      "JUN"
-    ],
+    "flower_color": ["#FFFF00"],
+    "flower_months": ["MAY", "JUN"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_months": [],
     "light": 6,
     "humidity": 6,
@@ -7486,23 +6649,15 @@
     "scientific_name": "Sequoia sempervirens",
     "genus": "Sequoia",
     "family": "Cupressaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -7517,9 +6672,7 @@
   {
     "id": "Tetradium daniellii",
     "common_name": "Bee-bee tree",
-    "alt_names": [
-      "Bee-bee tree"
-    ],
+    "alt_names": ["Bee-bee tree"],
     "scientific_name": "Tetradium daniellii",
     "genus": "Tetradium",
     "family": "Rutaceae",
@@ -7531,10 +6684,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "SHRUB",
-      "TREE"
-    ],
+    "growth_habit": ["SHRUB", "TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -7548,10 +6698,7 @@
   {
     "id": "Acer carpinifolium",
     "common_name": "Hornbeam maple",
-    "alt_names": [
-      "Hornbeam maple",
-      "Hornbeam-leaved Maple"
-    ],
+    "alt_names": ["Hornbeam maple", "Hornbeam-leaved Maple"],
     "scientific_name": "Acer carpinifolium",
     "genus": "Acer",
     "family": "Sapindaceae",
@@ -7577,10 +6724,7 @@
   {
     "id": "Acer griseum",
     "common_name": "Paperbark maple",
-    "alt_names": [
-      "Paperbark maple",
-      "Chinese paperbark maple"
-    ],
+    "alt_names": ["Paperbark maple", "Chinese paperbark maple"],
     "scientific_name": "Acer griseum",
     "genus": "Acer",
     "family": "Sapindaceae",
@@ -7625,23 +6769,15 @@
     "scientific_name": "Buxus sempervirens",
     "genus": "Buxus",
     "family": "Buxaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
-    "flower_months": [
-      "MAR",
-      "APR"
-    ],
+    "flower_color": ["#FFFF00"],
+    "flower_months": ["MAR", "APR"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_months": [],
     "light": 5,
     "humidity": 3,
@@ -7702,18 +6838,12 @@
     "flower_color": [],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#FFFF00"
-    ],
-    "fruit_color": [
-      "#FFFF00"
-    ],
+    "foliage_color": ["#FFFF00"],
+    "fruit_color": ["#FFFF00"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -7785,16 +6915,11 @@
   {
     "id": "Pyrus salicifolia",
     "common_name": "Willow-leaf pear",
-    "alt_names": [
-      "Willow-leaf pear",
-      "Willow-leaved Pear"
-    ],
+    "alt_names": ["Willow-leaf pear", "Willow-leaved Pear"],
     "scientific_name": "Pyrus salicifolia",
     "genus": "Pyrus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
+    "flower_color": ["#FFFFFF"],
     "flower_months": [],
     "foliage_texture": null,
     "foliage_color": [],
@@ -7899,18 +7024,12 @@
     "flower_color": [],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#FFFF00"
-    ],
-    "fruit_color": [
-      "#FFFF00"
-    ],
+    "foliage_color": ["#FFFF00"],
+    "fruit_color": ["#FFFF00"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -7937,18 +7056,12 @@
     "flower_color": [],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": 7,
@@ -7963,10 +7076,7 @@
   {
     "id": "Tilia mongolica",
     "common_name": "Mongolian lime",
-    "alt_names": [
-      "Mongolian lime",
-      "Mongolian Linden"
-    ],
+    "alt_names": ["Mongolian lime", "Mongolian Linden"],
     "scientific_name": "Tilia mongolica",
     "genus": "Tilia",
     "family": "Malvaceae",
@@ -7992,29 +7102,19 @@
   {
     "id": "Acer opalus",
     "common_name": "Italian maple",
-    "alt_names": [
-      "Italian Maple",
-      "Opalus Maple"
-    ],
+    "alt_names": ["Italian Maple", "Opalus Maple"],
     "scientific_name": "Acer opalus",
     "genus": "Acer",
     "family": "Sapindaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
-    "flower_months": [
-      "MAR",
-      "APR"
-    ],
+    "flower_color": ["#FFFF00"],
+    "flower_months": ["MAR", "APR"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 7,
     "humidity": 6,
@@ -8047,9 +7147,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -8063,11 +7161,7 @@
   {
     "id": "Prunus maackii",
     "common_name": "Manchurian cherry",
-    "alt_names": [
-      "Manchurian cherry",
-      "Amur cherry",
-      "Amur chokecherry"
-    ],
+    "alt_names": ["Manchurian cherry", "Amur cherry", "Amur chokecherry"],
     "scientific_name": "Prunus maackii",
     "genus": "Prunus",
     "family": "Rosaceae",
@@ -8093,12 +7187,7 @@
   {
     "id": "Betula papyrifera",
     "common_name": "Canoe birch",
-    "alt_names": [
-      "Canoe birch",
-      "Paper birch",
-      "White birch",
-      "Silver Birch"
-    ],
+    "alt_names": ["Canoe birch", "Paper birch", "White birch", "Silver Birch"],
     "scientific_name": "Betula papyrifera",
     "genus": "Betula",
     "family": "Betulaceae",
@@ -8124,10 +7213,7 @@
   {
     "id": "Cephalotaxus harringtonii",
     "common_name": "Harrington's plum yew",
-    "alt_names": [
-      "Harrington's plum yew",
-      "Japanese plum yew"
-    ],
+    "alt_names": ["Harrington's plum yew", "Japanese plum yew"],
     "scientific_name": "Cephalotaxus harringtonii",
     "genus": "Cephalotaxus",
     "family": "Taxaceae",
@@ -8172,24 +7258,15 @@
     "scientific_name": "Corylus avellana",
     "genus": "Corylus",
     "family": "Betulaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
-    "flower_months": [
-      "JAN",
-      "FEB",
-      "MAR"
-    ],
+    "flower_color": ["#FFFF00"],
+    "flower_months": ["JAN", "FEB", "MAR"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_months": [],
     "light": 5,
     "humidity": 5,
@@ -8222,23 +7299,15 @@
     "scientific_name": "Euonymus europaeus",
     "genus": "Euonymus",
     "family": "Celastraceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#FFFFFF"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "SHRUB",
-      "TREE"
-    ],
+    "growth_habit": ["SHRUB", "TREE"],
     "growth_months": [],
     "light": 6,
     "humidity": 6,
@@ -8280,9 +7349,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 7,
@@ -8334,22 +7401,15 @@
     "scientific_name": "Pinus cembra",
     "genus": "Pinus",
     "family": "Pinaceae",
-    "flower_color": [
-      "#FFFF00",
-      "#800080"
-    ],
-    "flower_months": [
-      "JUN"
-    ],
+    "flower_color": ["#FFFF00", "#800080"],
+    "flower_months": ["JUN"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 6,
@@ -8386,10 +7446,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 4,
@@ -8418,26 +7475,15 @@
     "scientific_name": "Pyrus communis",
     "genus": "Pyrus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#FFFFFF"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#FFFF00"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#FFFF00"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 6,
@@ -8452,9 +7498,7 @@
   {
     "id": "Quercus coccinea",
     "common_name": "Scarlet oak",
-    "alt_names": [
-      "Scarlet oak"
-    ],
+    "alt_names": ["Scarlet oak"],
     "scientific_name": "Quercus coccinea",
     "genus": "Quercus",
     "family": "Fagaceae",
@@ -8466,9 +7510,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 7,
@@ -8500,9 +7542,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": 8,
@@ -8517,11 +7557,7 @@
   {
     "id": "Catalpa ovata",
     "common_name": "Chinese catalpa",
-    "alt_names": [
-      "Chinese catalpa",
-      "Yellow catalpa",
-      "Japanese catalpa"
-    ],
+    "alt_names": ["Chinese catalpa", "Yellow catalpa", "Japanese catalpa"],
     "scientific_name": "Catalpa ovata",
     "genus": "Catalpa",
     "family": "Bignoniaceae",
@@ -8533,9 +7569,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -8566,9 +7600,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -8604,10 +7636,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 8,
@@ -8638,23 +7667,15 @@
     "scientific_name": "Nyssa sylvatica",
     "genus": "Nyssa",
     "family": "Nyssaceae",
-    "flower_color": [
-      "#008000"
-    ],
+    "flower_color": ["#008000"],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#0000FF"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#0000FF"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -8669,9 +7690,7 @@
   {
     "id": "Populus lasiocarpa",
     "common_name": "Chinese necklace poplar",
-    "alt_names": [
-      "Chinese necklace poplar"
-    ],
+    "alt_names": ["Chinese necklace poplar"],
     "scientific_name": "Populus lasiocarpa",
     "genus": "Populus",
     "family": "Salicaceae",
@@ -8707,9 +7726,7 @@
     "scientific_name": "Prunus fruticosa",
     "genus": "Prunus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
+    "flower_color": ["#FFFFFF"],
     "flower_months": [],
     "foliage_texture": "medium",
     "foliage_color": [],
@@ -8717,9 +7734,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Crown",
-    "growth_habit": [
-      "SHRUB"
-    ],
+    "growth_habit": ["SHRUB"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -8734,9 +7749,7 @@
   {
     "id": "Prunus serrula",
     "common_name": "Birchbark cherry",
-    "alt_names": [
-      "Birchbark cherry"
-    ],
+    "alt_names": ["Birchbark cherry"],
     "scientific_name": "Prunus serrula",
     "genus": "Prunus",
     "family": "Rosaceae",
@@ -8762,10 +7775,7 @@
   {
     "id": "Quercus macranthera",
     "common_name": "Caucasian oak",
-    "alt_names": [
-      "Caucasian oak",
-      "Persian oak"
-    ],
+    "alt_names": ["Caucasian oak", "Persian oak"],
     "scientific_name": "Quercus macranthera",
     "genus": "Quercus",
     "family": "Fagaceae",
@@ -8791,9 +7801,7 @@
   {
     "id": "Sorbus mougeotii",
     "common_name": "Vosges whitebeam",
-    "alt_names": [
-      "Vosges Whitebeam"
-    ],
+    "alt_names": ["Vosges Whitebeam"],
     "scientific_name": "Sorbus mougeotii",
     "genus": "Sorbus",
     "family": "Rosaceae",
@@ -8819,10 +7827,7 @@
   {
     "id": "Celtis",
     "common_name": "Silky celtis",
-    "alt_names": [
-      "Silky celtis",
-      "Investigator-tree"
-    ],
+    "alt_names": ["Silky celtis", "Investigator-tree"],
     "scientific_name": "Celtis paniculata",
     "genus": "Celtis",
     "family": "Cannabaceae",
@@ -8834,9 +7839,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -8869,9 +7872,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Crown",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -8897,22 +7898,15 @@
     "scientific_name": "Fagus sylvatica",
     "genus": "Fagus",
     "family": "Fagaceae",
-    "flower_color": [
-      "#008000"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#008000"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 7,
     "humidity": 7,
@@ -8970,16 +7964,11 @@
   {
     "id": "Tamarix tetranda",
     "common_name": "Four-stamen tamarisk",
-    "alt_names": [
-      "Four-stamen Tamarisk"
-    ],
+    "alt_names": ["Four-stamen Tamarisk"],
     "scientific_name": "Tamarix tetrandra",
     "genus": "Tamarix",
     "family": "Tamaricaceae",
-    "flower_color": [
-      "#FFFFFF",
-      "#800080"
-    ],
+    "flower_color": ["#FFFFFF", "#800080"],
     "flower_months": [],
     "foliage_texture": null,
     "foliage_color": [],
@@ -8987,9 +7976,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "SHRUB"
-    ],
+    "growth_habit": ["SHRUB"],
     "growth_months": [],
     "light": 9,
     "humidity": 6,
@@ -9030,10 +8017,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -9081,11 +8065,7 @@
   {
     "id": "Acer saccharum",
     "common_name": "Sugar maple",
-    "alt_names": [
-      "Sugar maple",
-      "Hard maple",
-      "Rock maple"
-    ],
+    "alt_names": ["Sugar maple", "Hard maple", "Rock maple"],
     "scientific_name": "Acer saccharum",
     "genus": "Acer",
     "family": "Sapindaceae",
@@ -9097,10 +8077,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -9147,31 +8124,19 @@
   {
     "id": "Catalpa",
     "common_name": "Northern catalpa",
-    "alt_names": [
-      "Northern catalpa",
-      "Catawbatree",
-      "Indian Bean"
-    ],
+    "alt_names": ["Northern catalpa", "Catawbatree", "Indian Bean"],
     "scientific_name": "Catalpa speciosa",
     "genus": "Catalpa",
     "family": "Bignoniaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
+    "flower_color": ["#FFFFFF"],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -9205,24 +8170,15 @@
     "scientific_name": "Corylus avellana",
     "genus": "Corylus",
     "family": "Betulaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
-    "flower_months": [
-      "JAN",
-      "FEB",
-      "MAR"
-    ],
+    "flower_color": ["#FFFF00"],
+    "flower_months": ["JAN", "FEB", "MAR"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_months": [],
     "light": 5,
     "humidity": 5,
@@ -9247,23 +8203,15 @@
     "scientific_name": "Koelreuteria paniculata",
     "genus": "Koelreuteria",
     "family": "Sapindaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -9278,31 +8226,19 @@
   {
     "id": "Malus x purpurea",
     "common_name": "Purple crab apple",
-    "alt_names": [
-      "Purple crab apple",
-      "Purple crab"
-    ],
+    "alt_names": ["Purple crab apple", "Purple crab"],
     "scientific_name": "Malus × purpurea",
     "genus": "Malus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#800080"
-    ],
+    "flower_color": ["#800080"],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#FF0000"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#FF0000"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
-    "growth_habit": [
-      "SHRUB",
-      "TREE"
-    ],
+    "growth_habit": ["SHRUB", "TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -9328,23 +8264,15 @@
     "scientific_name": "Pinus radiata",
     "genus": "Pinus",
     "family": "Pinaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 8,
@@ -9384,10 +8312,7 @@
   {
     "id": "Quercus dentata",
     "common_name": "Daimyo oak",
-    "alt_names": [
-      "Daimyo oak",
-      "Japanese emperor oak"
-    ],
+    "alt_names": ["Daimyo oak", "Japanese emperor oak"],
     "scientific_name": "Quercus dentata",
     "genus": "Quercus",
     "family": "Fagaceae",
@@ -9434,22 +8359,15 @@
     "scientific_name": "Sorbus aucuparia",
     "genus": "Sorbus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
+    "flower_color": ["#FFFFFF"],
     "flower_months": [],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#008000"
-    ],
+    "foliage_color": ["#008000"],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 7,
@@ -9464,30 +8382,19 @@
   {
     "id": "Taxus cuspidata",
     "common_name": "Japanese yew",
-    "alt_names": [
-      "Japanese yew",
-      "Ichii"
-    ],
+    "alt_names": ["Japanese yew", "Ichii"],
     "scientific_name": "Taxus cuspidata",
     "genus": "Taxus",
     "family": "Taxaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#FF0000"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#FF0000"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Crown",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -9502,12 +8409,7 @@
   {
     "id": "Betula alleghaniensis",
     "common_name": "Yellow birch",
-    "alt_names": [
-      "Yellow birch",
-      "Gray birch",
-      "Silver birch",
-      "Swamp birch"
-    ],
+    "alt_names": ["Yellow birch", "Gray birch", "Silver birch", "Swamp birch"],
     "scientific_name": "Betula alleghaniensis",
     "genus": "Betula",
     "family": "Betulaceae",
@@ -9599,31 +8501,19 @@
   {
     "id": "Catalpa speciosa",
     "common_name": "Northern catalpa",
-    "alt_names": [
-      "Northern catalpa",
-      "Catawbatree",
-      "Indian Bean"
-    ],
+    "alt_names": ["Northern catalpa", "Catawbatree", "Indian Bean"],
     "scientific_name": "Catalpa speciosa",
     "genus": "Catalpa",
     "family": "Bignoniaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
+    "flower_color": ["#FFFFFF"],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -9652,24 +8542,15 @@
     "scientific_name": "Cercis canadensis",
     "genus": "Cercis",
     "family": "Fabaceae",
-    "flower_color": [
-      "#800080"
-    ],
+    "flower_color": ["#800080"],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -9684,9 +8565,7 @@
   {
     "id": "Fagus orientalis",
     "common_name": "Oriental beech",
-    "alt_names": [
-      "Oriental Beech"
-    ],
+    "alt_names": ["Oriental Beech"],
     "scientific_name": "Fagus orientalis",
     "genus": "Fagus",
     "family": "Fagaceae",
@@ -9712,10 +8591,7 @@
   {
     "id": "Fraxinus americana",
     "common_name": "American ash",
-    "alt_names": [
-      "American ash",
-      "White ash"
-    ],
+    "alt_names": ["American ash", "White ash"],
     "scientific_name": "Fraxinus americana",
     "genus": "Fraxinus",
     "family": "Oleaceae",
@@ -9727,9 +8603,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -9764,10 +8638,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "SHRUB",
-      "TREE"
-    ],
+    "growth_habit": ["SHRUB", "TREE"],
     "growth_months": [],
     "light": 5,
     "humidity": 5,
@@ -9792,9 +8663,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -9830,24 +8699,15 @@
     "scientific_name": "Juniperus virginiana",
     "genus": "Juniperus",
     "family": "Cupressaceae",
-    "flower_color": [
-      "#FFFF00",
-      "#008000"
-    ],
+    "flower_color": ["#FFFF00", "#008000"],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#FFFFFF"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#FFFFFF"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -9886,9 +8746,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -9903,29 +8761,19 @@
   {
     "id": "Magnolia stellata",
     "common_name": "Star magnolia",
-    "alt_names": [
-      "Star magnolia"
-    ],
+    "alt_names": ["Star magnolia"],
     "scientific_name": "Magnolia stellata",
     "genus": "Magnolia",
     "family": "Magnoliaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
+    "flower_color": ["#FFFFFF"],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -9940,9 +8788,7 @@
   {
     "id": "Pterocarya stenoptera",
     "common_name": "Chinese wingnut",
-    "alt_names": [
-      "Chinese wingnut"
-    ],
+    "alt_names": ["Chinese wingnut"],
     "scientific_name": "Pterocarya stenoptera",
     "genus": "Pterocarya",
     "family": "Juglandaceae",
@@ -9954,9 +8800,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -9970,10 +8814,7 @@
   {
     "id": "Quercus castaneifolia",
     "common_name": "Chestnut-leaf oak",
-    "alt_names": [
-      "Chestnut-leaf oak",
-      "Chestnut-leaved Oak"
-    ],
+    "alt_names": ["Chestnut-leaf oak", "Chestnut-leaved Oak"],
     "scientific_name": "Quercus castaneifolia",
     "genus": "Quercus",
     "family": "Fagaceae",
@@ -9999,31 +8840,19 @@
   {
     "id": "Quercus pubescens",
     "common_name": "Downy oak",
-    "alt_names": [
-      "Downy oak",
-      "Pubescent Oak",
-      "Durnest",
-      "Truffle-oak"
-    ],
+    "alt_names": ["Downy oak", "Pubescent Oak", "Durnest", "Truffle-oak"],
     "scientific_name": "Quercus pubescens",
     "genus": "Quercus",
     "family": "Fagaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#FFFF00"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 4,
@@ -10037,11 +8866,7 @@
   {
     "id": "Abies pinsapo",
     "common_name": "Spanish fir",
-    "alt_names": [
-      "Spanish fir",
-      "Hedgehog fir",
-      "Spanish silver spruce"
-    ],
+    "alt_names": ["Spanish fir", "Hedgehog fir", "Spanish silver spruce"],
     "scientific_name": "Abies pinsapo",
     "genus": "Abies",
     "family": "Pinaceae",
@@ -10053,9 +8878,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 4,
@@ -10104,9 +8927,7 @@
   {
     "id": "Carpinus japonica",
     "common_name": "Japanese hornbeam",
-    "alt_names": [
-      "Japanese hornbeam"
-    ],
+    "alt_names": ["Japanese hornbeam"],
     "scientific_name": "Carpinus japonica",
     "genus": "Carpinus",
     "family": "Betulaceae",
@@ -10184,23 +9005,15 @@
     "scientific_name": "Cotinus coggygria",
     "genus": "Cotinus",
     "family": "Anacardiaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
-    "flower_months": [
-      "MAY",
-      "JUN"
-    ],
+    "flower_color": ["#FFFF00"],
+    "flower_months": ["MAY", "JUN"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_months": [],
     "light": 7,
     "humidity": 5,
@@ -10214,10 +9027,7 @@
   {
     "id": "Idesia polycarpa",
     "common_name": "Idesia tree",
-    "alt_names": [
-      "Idesia tree",
-      "Idesia"
-    ],
+    "alt_names": ["Idesia tree", "Idesia"],
     "scientific_name": "Idesia polycarpa",
     "genus": "Idesia",
     "family": "Salicaceae",
@@ -10229,9 +9039,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -10265,10 +9073,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "SHRUB",
-      "TREE"
-    ],
+    "growth_habit": ["SHRUB", "TREE"],
     "growth_months": [],
     "light": 5,
     "humidity": 5,
@@ -10343,9 +9148,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -10359,10 +9162,7 @@
   {
     "id": "Pinus jeffreyi",
     "common_name": "Jeffrey pine",
-    "alt_names": [
-      "Jeffrey pine",
-      "Jeffrey's Pine"
-    ],
+    "alt_names": ["Jeffrey pine", "Jeffrey's Pine"],
     "scientific_name": "Pinus jeffreyi",
     "genus": "Pinus",
     "family": "Pinaceae",
@@ -10374,9 +9174,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -10409,9 +9207,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 5,
@@ -10425,9 +9221,7 @@
   {
     "id": "Pyrus pyrifolia",
     "common_name": "Chinese pear",
-    "alt_names": [
-      "Chinese pear"
-    ],
+    "alt_names": ["Chinese pear"],
     "scientific_name": "Pyrus pyrifolia",
     "genus": "Pyrus",
     "family": "Rosaceae",
@@ -10439,9 +9233,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -10536,24 +9328,15 @@
     "scientific_name": "Thuja plicata",
     "genus": "Thuja",
     "family": "Cupressaceae",
-    "flower_color": [
-      "#A52A2A",
-      "#FFFF00"
-    ],
+    "flower_color": ["#A52A2A", "#FFFF00"],
     "flower_months": [],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": 8,
@@ -10579,9 +9362,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -10595,10 +9376,7 @@
   {
     "id": "Alnus subcordata",
     "common_name": "Caucasian alder",
-    "alt_names": [
-      "Caucasian alder",
-      "Caucasian Elder"
-    ],
+    "alt_names": ["Caucasian alder", "Caucasian Elder"],
     "scientific_name": "Alnus subcordata",
     "genus": "Alnus",
     "family": "Betulaceae",
@@ -10643,9 +9421,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -10677,10 +9453,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "SHRUB",
-      "TREE"
-    ],
+    "growth_habit": ["SHRUB", "TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -10703,21 +9476,15 @@
     "scientific_name": "Cupressus sempervirens",
     "genus": "Cupressus",
     "family": "Cupressaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
-    "flower_months": [
-      "APR"
-    ],
+    "flower_color": ["#FFFFFF"],
+    "flower_months": ["APR"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 3,
@@ -10731,11 +9498,7 @@
   {
     "id": "Cupressus macrocarpa",
     "common_name": "Monterey cypress",
-    "alt_names": [
-      "Monterey cypress",
-      "Monterey-pine",
-      "Monterrey cypress"
-    ],
+    "alt_names": ["Monterey cypress", "Monterey-pine", "Monterrey cypress"],
     "scientific_name": "Cupressus macrocarpa",
     "genus": "Cupressus",
     "family": "Cupressaceae",
@@ -10770,21 +9533,15 @@
     "scientific_name": "Cupressus sempervirens",
     "genus": "Cupressus",
     "family": "Cupressaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
-    "flower_months": [
-      "APR"
-    ],
+    "flower_color": ["#FFFFFF"],
+    "flower_months": ["APR"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 3,
@@ -10807,9 +9564,7 @@
     "scientific_name": "Magnolia liliiflora",
     "genus": "Magnolia",
     "family": "Magnoliaceae",
-    "flower_color": [
-      "#800080"
-    ],
+    "flower_color": ["#800080"],
     "flower_months": [],
     "foliage_texture": null,
     "foliage_color": [],
@@ -10817,9 +9572,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -10883,25 +9636,15 @@
     "scientific_name": "Pinus strobus",
     "genus": "Pinus",
     "family": "Pinaceae",
-    "flower_color": [
-      "#A52A2A"
-    ],
-    "flower_months": [
-      "MAY"
-    ],
+    "flower_color": ["#A52A2A"],
+    "flower_months": ["MAY"],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 8,
@@ -10927,9 +9670,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -10943,29 +9684,19 @@
   {
     "id": "Quercus phellos",
     "common_name": "Willow oak",
-    "alt_names": [
-      "Willow oak"
-    ],
+    "alt_names": ["Willow oak"],
     "scientific_name": "Quercus phellos",
     "genus": "Quercus",
     "family": "Fagaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -10980,9 +9711,7 @@
   {
     "id": "Quercus pontica",
     "common_name": "Armenian oak",
-    "alt_names": [
-      "Armenian oak"
-    ],
+    "alt_names": ["Armenian oak"],
     "scientific_name": "Quercus pontica",
     "genus": "Quercus",
     "family": "Fagaceae",
@@ -11025,22 +9754,15 @@
     "scientific_name": "Robinia pseudoacacia",
     "genus": "Robinia",
     "family": "Fabaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
-    "flower_months": [
-      "MAY",
-      "JUN"
-    ],
+    "flower_color": ["#FFFFFF"],
+    "flower_months": ["MAY", "JUN"],
     "foliage_texture": "medium",
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 8,
@@ -11055,10 +9777,7 @@
   {
     "id": "Abies koreana",
     "common_name": "Corean fir",
-    "alt_names": [
-      "Corean fir",
-      "Korean fir"
-    ],
+    "alt_names": ["Corean fir", "Korean fir"],
     "scientific_name": "Abies koreana",
     "genus": "Abies",
     "family": "Pinaceae",
@@ -11084,30 +9803,19 @@
   {
     "id": "Abies procera",
     "common_name": "Red fir",
-    "alt_names": [
-      "Red fir",
-      "Christmastree",
-      "Noble fir",
-      "White fir"
-    ],
+    "alt_names": ["Red fir", "Christmastree", "Noble fir", "White fir"],
     "scientific_name": "Abies procera",
     "genus": "Abies",
     "family": "Pinaceae",
     "flower_color": [],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#800080"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#800080"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -11122,9 +9830,7 @@
   {
     "id": "Aesculus indica",
     "common_name": "Indian horse-chestnut",
-    "alt_names": [
-      "Indian horse-chestnut"
-    ],
+    "alt_names": ["Indian horse-chestnut"],
     "scientific_name": "Aesculus indica",
     "genus": "Aesculus",
     "family": "Sapindaceae",
@@ -11167,10 +9873,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": 8,
@@ -11185,29 +9888,19 @@
   {
     "id": "Aesculus x hybrida",
     "common_name": "Sweet buckeye",
-    "alt_names": [
-      "Sweet buckeye",
-      "Yellow buckeye"
-    ],
+    "alt_names": ["Sweet buckeye", "Yellow buckeye"],
     "scientific_name": "Aesculus flava",
     "genus": "Aesculus",
     "family": "Sapindaceae",
     "flower_color": [],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -11222,9 +9915,7 @@
   {
     "id": "Aesculus x neglecta",
     "common_name": "Painted buckeye",
-    "alt_names": [
-      "Painted buckeye"
-    ],
+    "alt_names": ["Painted buckeye"],
     "scientific_name": "Aesculus sylvatica",
     "genus": "Aesculus",
     "family": "Sapindaceae",
@@ -11250,9 +9941,7 @@
   {
     "id": "Betula maximowicziana",
     "common_name": "Monarch birch",
-    "alt_names": [
-      "Monarch birch"
-    ],
+    "alt_names": ["Monarch birch"],
     "scientific_name": "Betula maximowicziana",
     "genus": "Betula",
     "family": "Betulaceae",
@@ -11278,9 +9967,7 @@
   {
     "id": "Carpinus turczaninowii",
     "common_name": "Turczaninow's hornbeam",
-    "alt_names": [
-      "Turczaninow's Hornbeam"
-    ],
+    "alt_names": ["Turczaninow's Hornbeam"],
     "scientific_name": "Carpinus turczaninowii",
     "genus": "Carpinus",
     "family": "Betulaceae",
@@ -11407,23 +10094,15 @@
     "scientific_name": "Magnolia acuminata",
     "genus": "Magnolia",
     "family": "Magnoliaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#FF0000"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#FF0000"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -11479,23 +10158,15 @@
     "scientific_name": "Picea breweriana",
     "genus": "Picea",
     "family": "Pinaceae",
-    "flower_color": [
-      "#FF0000"
-    ],
+    "flower_color": ["#FF0000"],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -11522,18 +10193,12 @@
     "flower_color": [],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -11548,9 +10213,7 @@
   {
     "id": "Picea polita",
     "common_name": "Tigertail spruce",
-    "alt_names": [
-      "Tigertail spruce"
-    ],
+    "alt_names": ["Tigertail spruce"],
     "scientific_name": "Picea torano",
     "genus": "Picea",
     "family": "Pinaceae",
@@ -11576,11 +10239,7 @@
   {
     "id": "Pinus flexilis",
     "common_name": "Limber pine",
-    "alt_names": [
-      "Limber pine",
-      "Limbertwig",
-      "Rocky Mountain White pine"
-    ],
+    "alt_names": ["Limber pine", "Limbertwig", "Rocky Mountain White pine"],
     "scientific_name": "Pinus flexilis",
     "genus": "Pinus",
     "family": "Pinaceae",
@@ -11592,9 +10251,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -11622,23 +10279,15 @@
     "scientific_name": "Pinus ponderosa",
     "genus": "Pinus",
     "family": "Pinaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -11663,23 +10312,15 @@
     "scientific_name": "Pinus sabiniana",
     "genus": "Pinus",
     "family": "Pinaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -11719,11 +10360,7 @@
   {
     "id": "Quercus pyrenaica",
     "common_name": "Pyrenean oak",
-    "alt_names": [
-      "Pyrenean oak",
-      "Hoary Oak",
-      "Pyrenees Oak"
-    ],
+    "alt_names": ["Pyrenean oak", "Hoary Oak", "Pyrenees Oak"],
     "scientific_name": "Quercus pyrenaica",
     "genus": "Quercus",
     "family": "Fagaceae",
@@ -11818,10 +10455,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "SHRUB",
-      "TREE"
-    ],
+    "growth_habit": ["SHRUB", "TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -11835,11 +10469,7 @@
   {
     "id": "Zelkova carpinifolia",
     "common_name": "Caucasian-elm",
-    "alt_names": [
-      "Caucasian-elm",
-      "Caucasian Elm",
-      "Caucasian zelkova"
-    ],
+    "alt_names": ["Caucasian-elm", "Caucasian Elm", "Caucasian zelkova"],
     "scientific_name": "Zelkova carpinifolia",
     "genus": "Zelkova",
     "family": "Ulmaceae",
@@ -11865,16 +10495,11 @@
   {
     "id": "Abies cephalonica",
     "common_name": "Grecian fir",
-    "alt_names": [
-      "Grecian fir",
-      "Greek fir"
-    ],
+    "alt_names": ["Grecian fir", "Greek fir"],
     "scientific_name": "Abies cephalonica",
     "genus": "Abies",
     "family": "Pinaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": null,
     "foliage_color": [],
@@ -11882,9 +10507,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 4,
@@ -11963,32 +10586,19 @@
   {
     "id": "Acer circinatum",
     "common_name": "Vine maple",
-    "alt_names": [
-      "Vine maple",
-      "Mountain maple"
-    ],
+    "alt_names": ["Vine maple", "Mountain maple"],
     "scientific_name": "Acer circinatum",
     "genus": "Acer",
     "family": "Sapindaceae",
-    "flower_color": [
-      "#008000"
-    ],
+    "flower_color": ["#008000"],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB",
-      "VINE"
-    ],
+    "growth_habit": ["TREE", "SHRUB", "VINE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -12072,10 +10682,7 @@
   {
     "id": "Alnus hirsuta",
     "common_name": "Manchurian alder",
-    "alt_names": [
-      "Manchurian alder",
-      "Siberian alder"
-    ],
+    "alt_names": ["Manchurian alder", "Siberian alder"],
     "scientific_name": "Alnus hirsuta",
     "genus": "Alnus",
     "family": "Betulaceae",
@@ -12101,15 +10708,11 @@
   {
     "id": "Alnus japonica",
     "common_name": "Japanese alder",
-    "alt_names": [
-      "Japanese alder"
-    ],
+    "alt_names": ["Japanese alder"],
     "scientific_name": "Alnus japonica",
     "genus": "Alnus",
     "family": "Betulaceae",
-    "flower_color": [
-      "#008000"
-    ],
+    "flower_color": ["#008000"],
     "flower_months": [],
     "foliage_texture": null,
     "foliage_color": [],
@@ -12131,12 +10734,7 @@
   {
     "id": "Alnus rubra",
     "common_name": "Red alder",
-    "alt_names": [
-      "Red alder",
-      "Oregon alder",
-      "Western alder",
-      "Aulne rouge"
-    ],
+    "alt_names": ["Red alder", "Oregon alder", "Western alder", "Aulne rouge"],
     "scientific_name": "Alnus rubra",
     "genus": "Alnus",
     "family": "Betulaceae",
@@ -12220,29 +10818,19 @@
   {
     "id": "Cornus nuttallii",
     "common_name": "Pacific dogwood",
-    "alt_names": [
-      "Pacific Dogwood"
-    ],
+    "alt_names": ["Pacific Dogwood"],
     "scientific_name": "Cornus nuttallii",
     "genus": "Cornus",
     "family": "Cornaceae",
-    "flower_color": [
-      "#008000"
-    ],
+    "flower_color": ["#008000"],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#FF0000"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#FF0000"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -12268,10 +10856,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "SHRUB",
-      "TREE"
-    ],
+    "growth_habit": ["SHRUB", "TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -12344,10 +10929,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -12379,10 +10961,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -12400,23 +10979,15 @@
     "scientific_name": "Laburnum anagyroides",
     "genus": "Laburnum",
     "family": "Fabaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY",
-      "JUN"
-    ],
+    "flower_color": ["#FFFF00"],
+    "flower_months": ["APR", "MAY", "JUN"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 7,
     "humidity": 4,
@@ -12439,22 +11010,15 @@
     "scientific_name": "Laburnum alpinum",
     "genus": "Laburnum",
     "family": "Fabaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
-    "flower_months": [
-      "JUN",
-      "JUL"
-    ],
+    "flower_color": ["#FFFF00"],
+    "flower_months": ["JUN", "JUL"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 6,
     "humidity": 5,
@@ -12468,11 +11032,7 @@
   {
     "id": "Liquidambar orientalis",
     "common_name": "Oriental sweet-gum",
-    "alt_names": [
-      "Oriental sweet-gum",
-      "Storax",
-      "Oriental sweetgum"
-    ],
+    "alt_names": ["Oriental sweet-gum", "Storax", "Oriental sweetgum"],
     "scientific_name": "Liquidambar orientalis",
     "genus": "Liquidambar",
     "family": "Altingiaceae",
@@ -12528,10 +11088,7 @@
   {
     "id": "Lonicera maackii",
     "common_name": "Bush honeysuckle",
-    "alt_names": [
-      "Bush honeysuckle",
-      "Amur honeysuckle"
-    ],
+    "alt_names": ["Bush honeysuckle", "Amur honeysuckle"],
     "scientific_name": "Lonicera maackii",
     "genus": "Lonicera",
     "family": "Caprifoliaceae",
@@ -12543,9 +11100,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
-    "growth_habit": [
-      "SHRUB"
-    ],
+    "growth_habit": ["SHRUB"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -12560,32 +11115,19 @@
   {
     "id": "Morus",
     "common_name": "Black mulberry",
-    "alt_names": [
-      "Black mulberry",
-      "СпекI",
-      "Mulberry",
-      "Common Mulberry"
-    ],
+    "alt_names": ["Black mulberry", "СпекI", "Mulberry", "Common Mulberry"],
     "scientific_name": "Morus nigra",
     "genus": "Morus",
     "family": "Moraceae",
-    "flower_color": [
-      "#008000"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#008000"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "SHRUB",
-      "TREE"
-    ],
+    "growth_habit": ["SHRUB", "TREE"],
     "growth_months": [],
     "light": 8,
     "humidity": 5,
@@ -12614,23 +11156,15 @@
     "scientific_name": "Paulownia tomentosa",
     "genus": "Paulownia",
     "family": "Paulowniaceae",
-    "flower_color": [
-      "#0000FF"
-    ],
+    "flower_color": ["#0000FF"],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Crown",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -12666,9 +11200,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -12726,23 +11258,15 @@
     "scientific_name": "Pinus aristata",
     "genus": "Pinus",
     "family": "Pinaceae",
-    "flower_color": [
-      "#800080"
-    ],
+    "flower_color": ["#800080"],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -12793,21 +11317,15 @@
     "scientific_name": "Prunus nigra",
     "genus": "Prunus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#FF0000"
-    ],
+    "flower_color": ["#FF0000"],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
+    "foliage_color": ["#008000"],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Thicket Forming",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -12875,24 +11393,15 @@
     "scientific_name": "Ptelea trifoliata",
     "genus": "Ptelea",
     "family": "Rutaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
+    "flower_color": ["#FFFFFF"],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#FF0000"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#FF0000"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": 8,
@@ -12916,23 +11425,15 @@
     "scientific_name": "Quercus alba",
     "genus": "Quercus",
     "family": "Fagaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -12947,9 +11448,7 @@
   {
     "id": "Quercus bicolor",
     "common_name": "Swamp white oak",
-    "alt_names": [
-      "Swamp white oak"
-    ],
+    "alt_names": ["Swamp white oak"],
     "scientific_name": "Quercus bicolor",
     "genus": "Quercus",
     "family": "Fagaceae",
@@ -12961,9 +11460,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": 8,
@@ -12978,11 +11475,7 @@
   {
     "id": "Quercus faginea",
     "common_name": "Honeydew oak",
-    "alt_names": [
-      "Honeydew Oak",
-      "Portuguese Oak",
-      "Gall Oak Tree"
-    ],
+    "alt_names": ["Honeydew Oak", "Portuguese Oak", "Gall Oak Tree"],
     "scientific_name": "Quercus faginea",
     "genus": "Quercus",
     "family": "Fagaceae",
@@ -13017,23 +11510,15 @@
     "scientific_name": "Quercus imbricaria",
     "genus": "Quercus",
     "family": "Fagaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -13073,9 +11558,7 @@
   {
     "id": "Quercus rhysophylla",
     "common_name": "Encino de asta",
-    "alt_names": [
-      "Encino de asta"
-    ],
+    "alt_names": ["Encino de asta"],
     "scientific_name": "Quercus rysophylla",
     "genus": "Quercus",
     "family": "Fagaceae",
@@ -13211,10 +11694,7 @@
   {
     "id": "Tilia amurensis",
     "common_name": "Amur lime",
-    "alt_names": [
-      "Amur Lime",
-      "Amur Linden"
-    ],
+    "alt_names": ["Amur Lime", "Amur Linden"],
     "scientific_name": "Tilia amurensis",
     "genus": "Tilia",
     "family": "Malvaceae",
@@ -13240,31 +11720,19 @@
   {
     "id": "Ulmus japonica",
     "common_name": "Chinese elm",
-    "alt_names": [
-      "Chinese elm",
-      "Lacebark",
-      "Lacebark elm"
-    ],
+    "alt_names": ["Chinese elm", "Lacebark", "Lacebark elm"],
     "scientific_name": "Ulmus parvifolia",
     "genus": "Ulmus",
     "family": "Ulmaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -13338,9 +11806,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": 7,
@@ -13390,10 +11856,7 @@
   {
     "id": "Acer velutinum",
     "common_name": "Velvet maple",
-    "alt_names": [
-      "Velvet maple",
-      "Persian maple"
-    ],
+    "alt_names": ["Velvet maple", "Persian maple"],
     "scientific_name": "Acer velutinum",
     "genus": "Acer",
     "family": "Sapindaceae",
@@ -13438,9 +11901,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -13455,10 +11916,7 @@
   {
     "id": "Aesculus turbinata",
     "common_name": "Japanese horse-chestnut",
-    "alt_names": [
-      "Japanese horse-chestnut",
-      "Japanese horse chestnut"
-    ],
+    "alt_names": ["Japanese horse-chestnut", "Japanese horse chestnut"],
     "scientific_name": "Aesculus turbinata",
     "genus": "Aesculus",
     "family": "Sapindaceae",
@@ -13503,10 +11961,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -13524,24 +11979,15 @@
     "scientific_name": "Amelanchier sanguinea",
     "genus": "Amelanchier",
     "family": "Rosaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
+    "flower_color": ["#FFFFFF"],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#800080"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#800080"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -13574,9 +12020,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -13601,24 +12045,15 @@
     "scientific_name": "Asimina triloba",
     "genus": "Asimina",
     "family": "Annonaceae",
-    "flower_color": [
-      "#800080"
-    ],
+    "flower_color": ["#800080"],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -13717,11 +12152,7 @@
   {
     "id": "Carpinus orientalis",
     "common_name": "Eastern hornbeam",
-    "alt_names": [
-      "Eastern Hornbeam",
-      "Oriental Hornbeam",
-      "Turkey hornbeam"
-    ],
+    "alt_names": ["Eastern Hornbeam", "Oriental Hornbeam", "Turkey hornbeam"],
     "scientific_name": "Carpinus orientalis",
     "genus": "Carpinus",
     "family": "Betulaceae",
@@ -13782,22 +12213,15 @@
     "scientific_name": "Carpinus betulus",
     "genus": "Carpinus",
     "family": "Betulaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
-    "flower_months": [
-      "APR",
-      "MAY"
-    ],
+    "flower_color": ["#FFFF00"],
+    "flower_months": ["APR", "MAY"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 7,
     "humidity": 5,
@@ -13836,30 +12260,19 @@
   {
     "id": "Castanea mollissima",
     "common_name": "Chinese chestnut",
-    "alt_names": [
-      "Chinese chestnut",
-      "Chinese hairy chestnut"
-    ],
+    "alt_names": ["Chinese chestnut", "Chinese hairy chestnut"],
     "scientific_name": "Castanea mollissima",
     "genus": "Castanea",
     "family": "Fagaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -13933,11 +12346,7 @@
   {
     "id": "Celtis mississipiensis",
     "common_name": "Sugar hackberry",
-    "alt_names": [
-      "Sugar hackberry",
-      "Sugarberry",
-      "Southern hackberry"
-    ],
+    "alt_names": ["Sugar hackberry", "Sugarberry", "Southern hackberry"],
     "scientific_name": "Celtis laevigata",
     "genus": "Celtis",
     "family": "Cannabaceae",
@@ -13949,10 +12358,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -13998,10 +12404,7 @@
   {
     "id": "Chionanthus retusus",
     "common_name": "Chinese fringetree",
-    "alt_names": [
-      "Chinese fringetree",
-      "Chinese Fringe Tree"
-    ],
+    "alt_names": ["Chinese fringetree", "Chinese Fringe Tree"],
     "scientific_name": "Chionanthus retusus",
     "genus": "Chionanthus",
     "family": "Oleaceae",
@@ -14073,22 +12476,15 @@
     "scientific_name": "Cornus sanguinea",
     "genus": "Cornus",
     "family": "Cornaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
-    "flower_months": [
-      "MAY",
-      "JUN"
-    ],
+    "flower_color": ["#FFFFFF"],
+    "flower_months": ["MAY", "JUN"],
     "foliage_texture": null,
     "foliage_color": [],
     "fruit_color": [],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "SHRUB"
-    ],
+    "growth_habit": ["SHRUB"],
     "growth_months": [],
     "light": 6,
     "humidity": 6,
@@ -14102,12 +12498,7 @@
   {
     "id": "Cunninghamia lanceolata",
     "common_name": "Chinese-fir",
-    "alt_names": [
-      "Chinese-fir",
-      "China-fir",
-      "Chinese fir",
-      "Cunninghamia"
-    ],
+    "alt_names": ["Chinese-fir", "China-fir", "Chinese fir", "Cunninghamia"],
     "scientific_name": "Cunninghamia lanceolata",
     "genus": "Cunninghamia",
     "family": "Cupressaceae",
@@ -14119,9 +12510,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -14152,9 +12541,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -14220,9 +12607,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "SHRUB"
-    ],
+    "growth_habit": ["SHRUB"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -14256,9 +12641,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -14297,10 +12680,7 @@
   {
     "id": "Fagus crenata",
     "common_name": "Japanese beech",
-    "alt_names": [
-      "Japanese beech",
-      "Siebold's Beech"
-    ],
+    "alt_names": ["Japanese beech", "Siebold's Beech"],
     "scientific_name": "Fagus crenata",
     "genus": "Fagus",
     "family": "Fagaceae",
@@ -14326,10 +12706,7 @@
   {
     "id": "Fagus engleriana",
     "common_name": "Chinese beech",
-    "alt_names": [
-      "Chinese Beech",
-      "Engler's beech"
-    ],
+    "alt_names": ["Chinese Beech", "Engler's beech"],
     "scientific_name": "Fagus engleriana",
     "genus": "Fagus",
     "family": "Fagaceae",
@@ -14355,10 +12732,7 @@
   {
     "id": "Fagus grandifolia",
     "common_name": "American beech",
-    "alt_names": [
-      "American beech",
-      "Red Beech"
-    ],
+    "alt_names": ["American beech", "Red Beech"],
     "scientific_name": "Fagus grandifolia",
     "genus": "Fagus",
     "family": "Fagaceae",
@@ -14370,9 +12744,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -14407,10 +12779,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -14425,33 +12794,19 @@
   {
     "id": "Fraxinus anomala",
     "common_name": "Utah ash",
-    "alt_names": [
-      "Utah ash",
-      "Dwarf ash",
-      "Single-leaf ash",
-      "Singleleaf ash"
-    ],
+    "alt_names": ["Utah ash", "Dwarf ash", "Single-leaf ash", "Singleleaf ash"],
     "scientific_name": "Fraxinus anomala",
     "genus": "Fraxinus",
     "family": "Oleaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -14466,9 +12821,7 @@
   {
     "id": "Fraxinus latifolia",
     "common_name": "Oregon ash",
-    "alt_names": [
-      "Oregon ash"
-    ],
+    "alt_names": ["Oregon ash"],
     "scientific_name": "Fraxinus latifolia",
     "genus": "Fraxinus",
     "family": "Oleaceae",
@@ -14480,9 +12833,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -14527,10 +12878,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Crown",
-    "growth_habit": [
-      "SHRUB",
-      "TREE"
-    ],
+    "growth_habit": ["SHRUB", "TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -14594,9 +12942,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
-    "growth_habit": [
-      "SHRUB"
-    ],
+    "growth_habit": ["SHRUB"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -14611,31 +12957,19 @@
   {
     "id": "Juglans cinerea",
     "common_name": "White walnut",
-    "alt_names": [
-      "White walnut",
-      "Butternut",
-      "Butternut Tree"
-    ],
+    "alt_names": ["White walnut", "Butternut", "Butternut Tree"],
     "scientific_name": "Juglans cinerea",
     "genus": "Juglans",
     "family": "Juglandaceae",
-    "flower_color": [
-      "#008000"
-    ],
+    "flower_color": ["#008000"],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -14650,9 +12984,7 @@
   {
     "id": "Juglans mandshurica",
     "common_name": "Manchurian walnut",
-    "alt_names": [
-      "Manchurian walnut"
-    ],
+    "alt_names": ["Manchurian walnut"],
     "scientific_name": "Juglans mandshurica",
     "genus": "Juglans",
     "family": "Juglandaceae",
@@ -14697,10 +13029,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Stoloniferous",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -14733,10 +13062,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -14750,10 +13076,7 @@
   {
     "id": "Maackia amurensis",
     "common_name": "Amur maackia",
-    "alt_names": [
-      "Amur maackia",
-      "Maackia"
-    ],
+    "alt_names": ["Amur maackia", "Maackia"],
     "scientific_name": "Maackia amurensis",
     "genus": "Maackia",
     "family": "Fabaceae",
@@ -14779,11 +13102,7 @@
   {
     "id": "Magnolia denudata",
     "common_name": "Lilytree",
-    "alt_names": [
-      "Lilytree",
-      "Lily Tree",
-      "Yulan Magnolia"
-    ],
+    "alt_names": ["Lilytree", "Lily Tree", "Yulan Magnolia"],
     "scientific_name": "Magnolia denudata",
     "genus": "Magnolia",
     "family": "Magnoliaceae",
@@ -14818,23 +13137,15 @@
     "scientific_name": "Magnolia tripetala",
     "genus": "Magnolia",
     "family": "Magnoliaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
+    "flower_color": ["#FFFFFF"],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#FF0000"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#FF0000"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": null,
@@ -14852,17 +13163,11 @@
     "scientific_name": "Malus asiatica",
     "genus": "Malus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#800080"
-    ],
+    "flower_color": ["#800080"],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#FF0000"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#FF0000"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
@@ -14901,9 +13206,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": 7,
@@ -14962,9 +13265,7 @@
     "scientific_name": "Olea europaea",
     "genus": "Olea",
     "family": "Oleaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
+    "flower_color": ["#FFFFFF"],
     "flower_months": [],
     "foliage_texture": null,
     "foliage_color": [],
@@ -14972,10 +13273,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_months": [],
     "light": 8,
     "humidity": 3,
@@ -15061,10 +13359,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -15096,9 +13391,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -15181,9 +13474,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -15216,9 +13507,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -15233,10 +13522,7 @@
   {
     "id": "Pinus peuce",
     "common_name": "Macedonian pine",
-    "alt_names": [
-      "Macedonian pine",
-      "Balkan pine"
-    ],
+    "alt_names": ["Macedonian pine", "Balkan pine"],
     "scientific_name": "Pinus peuce",
     "genus": "Pinus",
     "family": "Pinaceae",
@@ -15285,10 +13571,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -15303,10 +13586,7 @@
   {
     "id": "Poncirus trifoliata",
     "common_name": "Hardy orange",
-    "alt_names": [
-      "Hardy orange",
-      "Japanese Bitter-orange"
-    ],
+    "alt_names": ["Hardy orange", "Japanese Bitter-orange"],
     "scientific_name": "Citrus trifoliata",
     "genus": "Citrus",
     "family": "Rutaceae",
@@ -15364,11 +13644,7 @@
   {
     "id": "Prunus mume",
     "common_name": "Japanese apricot",
-    "alt_names": [
-      "Japanese apricot",
-      "Ume",
-      "Chinese Plum"
-    ],
+    "alt_names": ["Japanese apricot", "Ume", "Chinese Plum"],
     "scientific_name": "Prunus mume",
     "genus": "Prunus",
     "family": "Rosaceae",
@@ -15416,9 +13692,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": 7,
     "humidity": 5,
@@ -15450,9 +13724,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Multiple Stem",
-    "growth_habit": [
-      "SHRUB"
-    ],
+    "growth_habit": ["SHRUB"],
     "growth_rate": "MODERATE",
     "growth_months": [],
     "light": 8,
@@ -15476,23 +13748,15 @@
     "scientific_name": "Quercus acutissima",
     "genus": "Quercus",
     "family": "Fagaceae",
-    "flower_color": [
-      "#008000"
-    ],
+    "flower_color": ["#008000"],
     "flower_months": [],
     "foliage_texture": "coarse",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
@@ -15517,24 +13781,15 @@
     "scientific_name": "Quercus garryana",
     "genus": "Quercus",
     "family": "Fagaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": "medium",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -15549,17 +13804,11 @@
   {
     "id": "Quercus ithaburensis",
     "common_name": "Valonia oak",
-    "alt_names": [
-      "Valonia Oak",
-      "Tabor Oak",
-      "Vallonea Oak"
-    ],
+    "alt_names": ["Valonia Oak", "Tabor Oak", "Vallonea Oak"],
     "scientific_name": "Quercus ithaburensis",
     "genus": "Quercus",
     "family": "Fagaceae",
-    "flower_color": [
-      "#FFFF00"
-    ],
+    "flower_color": ["#FFFF00"],
     "flower_months": [],
     "foliage_texture": null,
     "foliage_color": [],
@@ -15632,10 +13881,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "SHRUB",
-      "TREE"
-    ],
+    "growth_habit": ["SHRUB", "TREE"],
     "growth_months": [],
     "light": 7,
     "humidity": null,
@@ -15649,11 +13895,7 @@
   {
     "id": "Robinia viscosa",
     "common_name": "Clammy locust",
-    "alt_names": [
-      "Clammy locust",
-      "Rose acacia",
-      "Clammy-bark locust"
-    ],
+    "alt_names": ["Clammy locust", "Rose acacia", "Clammy-bark locust"],
     "scientific_name": "Robinia viscosa",
     "genus": "Robinia",
     "family": "Fabaceae",
@@ -15665,10 +13907,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -15718,9 +13957,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "HERB"
-    ],
+    "growth_habit": ["HERB"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -15734,32 +13971,19 @@
   {
     "id": "Sorbus decora",
     "common_name": "Northern mountain-ash",
-    "alt_names": [
-      "Northern mountain-ash",
-      "Showy mountain-ash",
-      "Dogberry"
-    ],
+    "alt_names": ["Northern mountain-ash", "Showy mountain-ash", "Dogberry"],
     "scientific_name": "Sorbus decora",
     "genus": "Sorbus",
     "family": "Rosaceae",
-    "flower_color": [
-      "#FFFFFF"
-    ],
+    "flower_color": ["#FFFFFF"],
     "flower_months": [],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#FF0000"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#FF0000"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Crown",
-    "growth_habit": [
-      "TREE",
-      "SHRUB"
-    ],
+    "growth_habit": ["TREE", "SHRUB"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -15935,9 +14159,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": null,
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_months": [],
     "light": null,
     "humidity": null,
@@ -16029,18 +14251,12 @@
     "flower_color": [],
     "flower_months": [],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -16072,18 +14288,12 @@
     "flower_color": [],
     "flower_months": [],
     "foliage_texture": "fine",
-    "foliage_color": [
-      "#008000"
-    ],
-    "fruit_color": [
-      "#A52A2A"
-    ],
+    "foliage_color": ["#008000"],
+    "fruit_color": ["#A52A2A"],
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "SLOW",
     "growth_months": [],
     "light": null,
@@ -16098,12 +14308,7 @@
   {
     "id": "Ulmus americana",
     "common_name": "American elm",
-    "alt_names": [
-      "American elm",
-      "Water elm",
-      "White elm",
-      "Homenó'e"
-    ],
+    "alt_names": ["American elm", "Water elm", "White elm", "Homenó'e"],
     "scientific_name": "Ulmus americana",
     "genus": "Ulmus",
     "family": "Ulmaceae",
@@ -16115,9 +14320,7 @@
     "fruit_shape": null,
     "fruit_months": [],
     "growth_form": "Single Stem",
-    "growth_habit": [
-      "TREE"
-    ],
+    "growth_habit": ["TREE"],
     "growth_rate": "RAPID",
     "growth_months": [],
     "light": null,
