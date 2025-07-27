@@ -19,7 +19,7 @@ export class SuggestionError extends Schema.TaggedError<SuggestionError>(
 export class SuggestionGroup extends HttpApiGroup.make("suggestion")
   .add(
     HttpApiEndpoint.get("getSpecies", "/species")
-      .addSuccess(Species)
+      .addSuccess(Species.pipe(Schema.omit("createdAt", "updatedAt")))
       .addError(SuggestionError)
       .setUrlParams(
         Schema.Struct({

@@ -2,7 +2,7 @@ import { FileSystem } from "@effect/platform";
 import { BunContext, BunRuntime } from "@effect/platform-bun";
 import { SqlClient } from "@effect/sql";
 import type { Fragment, Primitive } from "@effect/sql/Statement";
-import { Array, Effect, Schema } from "effect";
+import { Array, Effect, Schema, Struct } from "effect";
 import { PgLive } from "../src/index";
 
 const TreeSeed = Schema.Struct({
@@ -21,9 +21,9 @@ const TreeSeed = Schema.Struct({
 
 const SpeciesSeed = Schema.Struct({
   id: Schema.String,
+  scientific_name: Schema.String,
   common_name: Schema.NullOr(Schema.String),
   alt_names: Schema.optional(Schema.Array(Schema.String)),
-  scientific_name: Schema.NullOr(Schema.String),
   genus: Schema.NullOr(Schema.String),
   family: Schema.NullOr(Schema.String),
   flower_color: Schema.Array(Schema.String),
@@ -83,10 +83,18 @@ const seedSpeccies = Effect.gen(function* () {
     content
   );
 
-  const chunks = Array.chunksOf(species, 500);
+  const cleanedSpecies = species
+    .map((s) => ({
+      ...s,
+      id: undefined,
+      scientific_name: s.id,
+    }))
+    .map(Struct.omit("id"));
+
+  const chunks = Array.chunksOf(cleanedSpecies, 500);
 
   yield* Effect.log(
-    `Inserting ${species.length} species in ${chunks.length} chunks...`
+    `Inserting ${cleanedSpecies.length} species in ${chunks.length} chunks...`
   );
 
   for (const chunk of chunks) {

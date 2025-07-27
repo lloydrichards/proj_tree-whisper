@@ -11,7 +11,14 @@ import {
 export class UpsertSpeciesPayload extends Schema.Class<UpsertSpeciesPayload>(
   "UpsertSpeciesPayload"
 )({
-  id: Schema.optional(SpeciesId),
+  scientificName: SpeciesId.pipe(
+    Schema.nonEmptyString({
+      message: () => "Scientific name must not be empty",
+    }),
+    Schema.maxLength(255, {
+      message: () => "Scientific name must be at most 255 characters long",
+    })
+  ),
   commonName: Schema.NullOr(
     Schema.Trim.pipe(
       Schema.nonEmptyString({
@@ -23,16 +30,6 @@ export class UpsertSpeciesPayload extends Schema.Class<UpsertSpeciesPayload>(
     )
   ),
   altNames: Schema.Array(Schema.String),
-  scientificName: Schema.NullOr(
-    Schema.Trim.pipe(
-      Schema.nonEmptyString({
-        message: () => "Scientific name must not be empty",
-      }),
-      Schema.maxLength(255, {
-        message: () => "Scientific name must be at most 255 characters long",
-      })
-    )
-  ),
   genus: Schema.NullOr(
     Schema.Trim.pipe(
       Schema.nonEmptyString({
@@ -193,6 +190,16 @@ export class SpeciesGroup extends HttpApiGroup.make("species")
       .setPath(
         Schema.Struct({
           id: SpeciesId,
+        })
+      )
+  )
+  .add(
+    HttpApiEndpoint.get("find", "/find")
+      .addSuccess(Species.Array)
+      .addError(SpeciesNotFoundError)
+      .setUrlParams(
+        Schema.Struct({
+          q: Schema.String,
         })
       )
   )

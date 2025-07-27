@@ -2,17 +2,18 @@ import { faker } from "@faker-js/faker";
 import { Schema } from "effect";
 import {
   arrayElement,
-  generateUUID,
   many,
   maybeFloatRange,
   maybeIntRange,
   maybeNull,
-  maybeScientificName,
   maybeWords,
   randomPastDateTime,
 } from "../helpers/mock-generators";
 
-export const SpeciesId = Schema.String.pipe(Schema.brand("SpeciesId"));
+export const SpeciesId = Schema.String.annotations({
+  description:
+    "Unique identifier for the species, represented by the scientific name of the species",
+}).pipe(Schema.brand("SpeciesId"));
 
 // Define enums as readonly arrays for reuse
 export const MONTHS = [
@@ -44,15 +45,14 @@ export const RateEnum = Schema.Literal(...RATES).annotations({
   description: "Growth rates of the species, such as slow, moderate, or rapid",
 });
 
-export class Species extends Schema.TaggedClass<Species>("Species")("Species", {
-  id: SpeciesId,
+export class Species extends Schema.Class<Species>("Species")({
+  scientificName: SpeciesId,
   commonName: Schema.NullOr(Schema.String).annotations({
     description: "Common name of the species",
   }),
   altNames: Schema.Array(Schema.String).annotations({
     description: "Alternative names for the species",
   }),
-  scientificName: Schema.NullOr(Schema.String),
   genus: Schema.NullOr(Schema.String),
   family: Schema.NullOr(Schema.String),
   flowerColor: Schema.Array(
@@ -140,10 +140,11 @@ export class Species extends Schema.TaggedClass<Species>("Species")("Species", {
 
   static makeMock(overrides: Partial<Species> = {}): Species {
     return new Species({
-      id: SpeciesId.make(generateUUID()),
+      scientificName: SpeciesId.make(
+        `${faker.word.words(1)} ${faker.word.words(1)}`
+      ),
       commonName: maybeWords(2),
       altNames: many(() => faker.word.words(2), 1, 3),
-      scientificName: maybeScientificName(),
       genus: maybeWords(1),
       family: maybeWords(1),
       flowerColor: many(() => faker.color.human(), 1, 3),

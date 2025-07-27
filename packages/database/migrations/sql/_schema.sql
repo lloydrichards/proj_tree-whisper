@@ -31,10 +31,9 @@ CREATE TABLE public.effect_sql_migrations (
 );
 
 CREATE TABLE public.species (
-    id text NOT NULL,
+    scientific_name text NOT NULL,
     common_name text,
     alt_names text[] DEFAULT '{}'::text[],
-    scientific_name text,
     genus text,
     family text,
     flower_color text[] DEFAULT '{}'::text[],
@@ -85,7 +84,7 @@ ALTER TABLE ONLY public.effect_sql_migrations
     ADD CONSTRAINT effect_sql_migrations_pkey PRIMARY KEY (migration_id);
 
 ALTER TABLE ONLY public.species
-    ADD CONSTRAINT species_pkey PRIMARY KEY (id);
+    ADD CONSTRAINT species_pkey PRIMARY KEY (scientific_name);
 
 ALTER TABLE ONLY public.trees
     ADD CONSTRAINT trees_pkey PRIMARY KEY (id);

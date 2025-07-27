@@ -4,9 +4,7 @@ import { PgLive } from "@repo/database";
 import { Species, SpeciesId, SpeciesNotFoundError } from "@repo/domain";
 import { Effect, flow, Schema } from "effect";
 
-const CreateSpeciesInput = Species.pipe(
-  Schema.omit("id", "createdAt", "updatedAt")
-);
+const CreateSpeciesInput = Species.pipe(Schema.omit("createdAt", "updatedAt"));
 
 const UpdateSpeciesInput = Species.pipe(Schema.omit("createdAt", "updatedAt"));
 
@@ -26,7 +24,7 @@ export class SpeciesManager extends Effect.Service<SpeciesManager>()(
         FROM
           species
         WHERE
-          id = ${id}
+          scientific_name = ${id}
       `,
       });
 
@@ -41,12 +39,54 @@ export class SpeciesManager extends Effect.Service<SpeciesManager>()(
       `,
       });
 
+      const findBySearch = SqlSchema.findAll({
+        Result: Species,
+        Request: Schema.String,
+        execute: (search) => {
+          const containsPattern = `%${search}%`;
+          const startsWithPattern = `${search}%`;
+          return sql`
+            SELECT *
+            FROM species
+            WHERE
+              scientific_name ILIKE ${containsPattern}
+              OR common_name ILIKE ${containsPattern}
+              OR family ILIKE ${containsPattern}
+              OR genus ILIKE ${containsPattern}
+            ORDER BY
+              CASE
+                WHEN scientific_name ILIKE ${search} THEN 1
+                WHEN common_name ILIKE ${search} THEN 1
+                WHEN scientific_name ILIKE ${startsWithPattern} THEN 2
+                WHEN common_name ILIKE ${startsWithPattern} THEN 2
+                WHEN genus ILIKE ${startsWithPattern} THEN 3
+                WHEN family ILIKE ${startsWithPattern} THEN 3
+                WHEN scientific_name ILIKE ${containsPattern} THEN 4
+                WHEN common_name ILIKE ${containsPattern} THEN 4
+                WHEN genus ILIKE ${containsPattern} THEN 5
+                WHEN family ILIKE ${containsPattern} THEN 5
+                ELSE 6
+              END,
+              scientific_name
+            LIMIT 10
+          `;
+        },
+      });
+
       const create = SqlSchema.single({
         Result: Species,
         Request: CreateSpeciesInput,
         execute: (request) => sql`
         INSERT INTO
           species ${sql.insert(
+            request as unknown as Record<
+              string,
+              Primitive | Fragment | undefined
+            >
+          )}
+        ON CONFLICT (scientific_name)
+        DO UPDATE SET
+          ${sql.update(
             request as unknown as Record<
               string,
               Primitive | Fragment | undefined
@@ -70,7 +110,7 @@ export class SpeciesManager extends Effect.Service<SpeciesManager>()(
             >
           )}
         WHERE
-          id = ${request.id}
+          scientific_name = ${request.scientificName}
         RETURNING
           *
       `,
@@ -82,9 +122,9 @@ export class SpeciesManager extends Effect.Service<SpeciesManager>()(
         execute: (id) => sql`
         DELETE FROM species
         WHERE
-          id = ${id}
+          scientific_name = ${id}
         RETURNING
-          id
+          scientific_name
       `,
       });
 
@@ -98,6 +138,7 @@ export class SpeciesManager extends Effect.Service<SpeciesManager>()(
             })
           ),
         findAll: flow(findAll, Effect.orDie),
+        findBySearch: flow(findBySearch, Effect.orDie),
         del: (id: typeof SpeciesId.Type) =>
           del(id).pipe(
             Effect.asVoid,
@@ -111,7 +152,7 @@ export class SpeciesManager extends Effect.Service<SpeciesManager>()(
           update(request).pipe(
             Effect.catchTags({
               NoSuchElementException: () =>
-                new SpeciesNotFoundError({ id: request.id }),
+                new SpeciesNotFoundError({ id: request.scientificName }),
               ParseError: Effect.die,
               SqlError: Effect.die,
             })

@@ -7,10 +7,9 @@ export default Effect.flatMap(
 
     -- Create species table (new schema)
     CREATE TABLE IF NOT EXISTS species (
-      id TEXT PRIMARY KEY,
+      scientific_name TEXT PRIMARY KEY,
       common_name TEXT,
       alt_names TEXT[] DEFAULT '{}',
-      scientific_name TEXT,
       genus TEXT,
       family TEXT,
       flower_color TEXT[] DEFAULT '{}',
@@ -42,8 +41,8 @@ export default Effect.flatMap(
       EXECUTE FUNCTION update_updated_at_column ();
 
     -- Create indexes
-    CREATE INDEX IF NOT EXISTS idx_species_common_name ON species(common_name);
     CREATE INDEX IF NOT EXISTS idx_species_scientific_name ON species(scientific_name);
+    CREATE INDEX IF NOT EXISTS idx_species_common_name ON species(common_name);
     CREATE INDEX IF NOT EXISTS idx_species_genus ON species(genus);
     CREATE INDEX IF NOT EXISTS idx_species_family ON species(family);
   `

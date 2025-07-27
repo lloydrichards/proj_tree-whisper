@@ -12,15 +12,8 @@ export const SpeciesGroupLive = HttpApiBuilder.group(
       return handlers
         .handle("list", () => manager.findAll())
         .handle("get", ({ path: { id } }) => manager.findById(id))
-        .handle("upsert", ({ payload }) =>
-          payload.id
-            ? manager.update(
-                payload as typeof payload & {
-                  id: NonNullable<typeof payload.id>;
-                }
-              )
-            : manager.create(payload)
-        )
+        .handle("upsert", ({ payload }) => manager.create(payload))
+        .handle("find", ({ urlParams: { q } }) => manager.findBySearch(q))
         .handle("delete", ({ payload: { id } }) => manager.del(id));
     })
 ).pipe(Layer.provide(SpeciesManager.Default));
