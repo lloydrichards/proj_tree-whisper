@@ -1,163 +1,88 @@
-import { SqlClient, SqlSchema } from "@effect/sql";
-import type { Fragment, Primitive } from "@effect/sql/Statement";
-import { PgLive } from "@repo/database";
-import { Species, SpeciesId, SpeciesNotFoundError } from "@repo/domain";
+import { Database, PgLive } from "@repo/database";
+import { species } from "@repo/database/schema";
+import {
+  NoSpeciesFoundError,
+  SpeciesId,
+  SpeciesNotFoundError,
+  type UpsertSpeciesPayload,
+} from "@repo/domain";
+import { eq } from "drizzle-orm";
 import { Effect, flow, Schema } from "effect";
-
-const CreateSpeciesInput = Species.pipe(Schema.omit("createdAt", "updatedAt"));
-
-const UpdateSpeciesInput = Species.pipe(Schema.omit("createdAt", "updatedAt"));
 
 export class SpeciesManager extends Effect.Service<SpeciesManager>()(
   "SpeciesManager",
   {
     dependencies: [PgLive],
     effect: Effect.gen(function* () {
-      const sql = yield* SqlClient.SqlClient;
+      const db = yield* Database;
 
-      const findById = SqlSchema.single({
-        Result: Species,
-        Request: SpeciesId,
-        execute: (id) => sql`
-        SELECT
-          *
-        FROM
-          species
-        WHERE
-          scientific_name = ${id}
-      `,
-      });
+      const findByName = (input: string) =>
+        Effect.gen(function* () {
+          const id = yield* Schema.decode(SpeciesId)(input);
+          const result = yield* db.query.species.findFirst({
+            where: eq(species.scientificName, id),
+          });
+          if (result == null) {
+            return yield* Effect.fail(new SpeciesNotFoundError({ id }));
+          }
+          return result;
+        });
 
-      const findAll = SqlSchema.findAll({
-        Result: Species,
-        Request: Schema.Void,
-        execute: () => sql`
-        SELECT
-          *
-        FROM
-          species
-      `,
-      });
+      const findAll = () =>
+        Effect.gen(function* () {
+          const results = yield* db.query.species.findMany();
 
-      const findBySearch = SqlSchema.findAll({
-        Result: Species,
-        Request: Schema.String,
-        execute: (search) => {
-          const containsPattern = `%${search}%`;
-          const startsWithPattern = `${search}%`;
-          return sql`
-            SELECT *
-            FROM species
-            WHERE
-              scientific_name ILIKE ${containsPattern}
-              OR common_name ILIKE ${containsPattern}
-              OR family ILIKE ${containsPattern}
-              OR genus ILIKE ${containsPattern}
-            ORDER BY
-              CASE
-                WHEN scientific_name ILIKE ${search} THEN 1
-                WHEN common_name ILIKE ${search} THEN 1
-                WHEN scientific_name ILIKE ${startsWithPattern} THEN 2
-                WHEN common_name ILIKE ${startsWithPattern} THEN 2
-                WHEN genus ILIKE ${startsWithPattern} THEN 3
-                WHEN family ILIKE ${startsWithPattern} THEN 3
-                WHEN scientific_name ILIKE ${containsPattern} THEN 4
-                WHEN common_name ILIKE ${containsPattern} THEN 4
-                WHEN genus ILIKE ${containsPattern} THEN 5
-                WHEN family ILIKE ${containsPattern} THEN 5
-                ELSE 6
-              END,
-              scientific_name
-            LIMIT 10
-          `;
-        },
-      });
+          if (results.length === 0) {
+            return yield* Effect.fail(new NoSpeciesFoundError());
+          }
+          return results;
+        });
 
-      const create = SqlSchema.single({
-        Result: Species,
-        Request: CreateSpeciesInput,
-        execute: (request) => sql`
-        INSERT INTO
-          species ${sql.insert(
-            request as unknown as Record<
-              string,
-              Primitive | Fragment | undefined
-            >
-          )}
-        ON CONFLICT (scientific_name)
-        DO UPDATE SET
-          ${sql.update(
-            request as unknown as Record<
-              string,
-              Primitive | Fragment | undefined
-            >
-          )}
-        RETURNING
-          *
-      `,
-      });
+      const create = (input: typeof UpsertSpeciesPayload.Type) =>
+        db.insert(species).values(input).returning().pipe(Effect.head);
 
-      const update = SqlSchema.single({
-        Result: Species,
-        Request: UpdateSpeciesInput,
-        execute: (request) => sql`
-        UPDATE species
-        SET
-          ${sql.update(
-            request as unknown as Record<
-              string,
-              Primitive | Fragment | undefined
-            >
-          )}
-        WHERE
-          scientific_name = ${request.scientificName}
-        RETURNING
-          *
-      `,
-      });
+      const update = (input: typeof species.$inferInsert) =>
+        db
+          .update(species)
+          .set(input)
+          .where(eq(species.scientificName, input.scientificName));
 
-      const del = SqlSchema.single({
-        Request: SpeciesId,
-        Result: Schema.Unknown,
-        execute: (id) => sql`
-        DELETE FROM species
-        WHERE
-          scientific_name = ${id}
-        RETURNING
-          scientific_name
-      `,
-      });
+      const del = (id: string) =>
+        db.delete(species).where(eq(species.scientificName, id));
 
       return {
-        findById: (id: typeof SpeciesId.Type) =>
-          findById(id).pipe(
+        findByName: (id: string) =>
+          findByName(id).pipe(
             Effect.catchTags({
-              NoSuchElementException: () => new SpeciesNotFoundError({ id }),
               ParseError: Effect.die,
               SqlError: Effect.die,
             })
           ),
-        findAll: flow(findAll, Effect.orDie),
-        findBySearch: flow(findBySearch, Effect.orDie),
-        del: (id: typeof SpeciesId.Type) =>
-          del(id).pipe(
-            Effect.asVoid,
-            Effect.catchTags({
-              NoSuchElementException: () => new SpeciesNotFoundError({ id }),
-              ParseError: Effect.die,
-              SqlError: Effect.die,
-            })
-          ),
-        update: (request: typeof UpdateSpeciesInput.Type) =>
-          update(request).pipe(
-            Effect.catchTags({
-              NoSuchElementException: () =>
-                new SpeciesNotFoundError({ id: request.scientificName }),
-              ParseError: Effect.die,
-              SqlError: Effect.die,
-            })
-          ),
-        create: flow(create, Effect.orDie),
+        findAll: flow(
+          findAll,
+          Effect.catchTags({
+            SqlError: Effect.die,
+          })
+        ),
+        del: flow(
+          del,
+          Effect.catchTags({
+            SqlError: Effect.die,
+          })
+        ),
+        update: flow(
+          update,
+          Effect.catchTags({
+            SqlError: Effect.die,
+          })
+        ),
+        create: flow(
+          create,
+          Effect.catchTags({
+            NoSuchElementException: Effect.die,
+            SqlError: Effect.die,
+          })
+        ),
       } as const;
     }),
   }

@@ -22,7 +22,7 @@ export class PgContainer extends Effect.Service<PgContainer>()("PgContainer", {
       const currentDir = fileURLToPath(new URL(".", import.meta.url));
       const schemaPath = path.join(
         currentDir,
-        "../../../../packages/database/migrations/sql/_schema.sql"
+        "../../../../packages/database/_schema.sql"
       );
 
       const schema = yield* fs.readFileString(schemaPath);

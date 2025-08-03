@@ -13,7 +13,7 @@ eIt.layer(layer, { timeout: "30 seconds" })("SpeciesManager", (it) => {
     "should create a species",
     Effect.fnUntraced(function* () {
       const repo = yield* SpeciesManager;
-      const mockedSpecies = Species.makeMock();
+      const mockedSpecies = Species.makeMockInsert();
       const newSpecies = yield* repo.create(mockedSpecies);
 
       expect(newSpecies).toBeDefined();
@@ -25,9 +25,10 @@ eIt.layer(layer, { timeout: "30 seconds" })("SpeciesManager", (it) => {
     "should find all species",
     Effect.fnUntraced(function* () {
       const repo = yield* SpeciesManager;
+      const mockedSpecies = Species.makeMockInsert();
+      yield* repo.create(mockedSpecies);
       const species = yield* repo.findAll();
 
-      expect(species).toBeDefined();
       expect(Array.isArray(species)).toBe(true);
     })
   );
@@ -36,9 +37,12 @@ eIt.layer(layer, { timeout: "30 seconds" })("SpeciesManager", (it) => {
     "should find species by id",
     Effect.fnUntraced(function* () {
       const repo = yield* SpeciesManager;
-      const mockedSpecies = Species.makeMock();
+      const mockedSpecies = Species.makeMockInsert();
       const createdSpecies = yield* repo.create(mockedSpecies);
-      const foundSpecies = yield* repo.findById(createdSpecies.scientificName);
+
+      const foundSpecies = yield* repo.findByName(
+        createdSpecies.scientificName
+      );
 
       expect(foundSpecies).toBeDefined();
       expect(foundSpecies.scientificName).toBe(createdSpecies.scientificName);
@@ -49,9 +53,11 @@ eIt.layer(layer, { timeout: "30 seconds" })("SpeciesManager", (it) => {
     "should handle empty array of items in species",
     Effect.fnUntraced(function* () {
       const repo = yield* SpeciesManager;
-      const mockedSpecies = Species.makeMock({ altNames: [] });
+      const mockedSpecies = Species.makeMockInsert({ altNames: [] });
       const createdSpecies = yield* repo.create(mockedSpecies);
-      const foundSpecies = yield* repo.findById(createdSpecies.scientificName);
+      const foundSpecies = yield* repo.findByName(
+        createdSpecies.scientificName
+      );
 
       expect(foundSpecies).toBeDefined();
       expect(foundSpecies.altNames).toHaveLength(0);

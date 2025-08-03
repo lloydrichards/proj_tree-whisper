@@ -3,7 +3,7 @@ import { PgLive } from "@repo/database";
 import { Tree, TreeId, TreeNotFoundError } from "@repo/domain";
 import { Effect, flow, Schema } from "effect";
 
-const CreateStyleInput = Tree.pipe(Schema.omit("id", "createdAt", "updatedAt"));
+const CreateStyleInput = Tree.pipe(Schema.omit("createdAt", "updatedAt"));
 
 const UpdateStyleInput = Tree.pipe(Schema.omit("createdAt", "updatedAt"));
 
