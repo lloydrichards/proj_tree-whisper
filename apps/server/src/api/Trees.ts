@@ -1,5 +1,5 @@
 import { HttpApiBuilder } from "@effect/platform";
-import { Api } from "@repo/domain";
+import { Api, TreeId } from "@repo/domain";
 import { Effect, Layer } from "effect";
 import { TreeManager } from "../services/TreeManager";
 
@@ -14,7 +14,12 @@ export const TreeGroupLive = HttpApiBuilder.group(Api, "trees", (handlers) =>
           ? manager.update(
               payload as typeof payload & { id: NonNullable<typeof payload.id> }
             )
-          : manager.create(payload)
+          : manager.create({
+              ...payload,
+              id: TreeId.make(
+                `${payload.family} ${payload.species} '${payload.cultivar}'`
+              ),
+            })
       )
 
       .handle("delete", () => Effect.void);

@@ -1,5 +1,5 @@
 import { it as eIt, expect } from "@effect/vitest";
-import { Species } from "@repo/domain";
+import { UpsertSpeciesPayload } from "@repo/domain";
 import { Effect, Layer } from "effect";
 import { PgContainer } from "../lib/pg-container";
 import { SpeciesManager } from "./SpeciesManager";
@@ -13,7 +13,7 @@ eIt.layer(layer, { timeout: "30 seconds" })("SpeciesManager", (it) => {
     "should create a species",
     Effect.fnUntraced(function* () {
       const repo = yield* SpeciesManager;
-      const mockedSpecies = Species.makeMockInsert();
+      const mockedSpecies = UpsertSpeciesPayload.makeMock();
       const newSpecies = yield* repo.create(mockedSpecies);
 
       expect(newSpecies).toBeDefined();
@@ -25,7 +25,7 @@ eIt.layer(layer, { timeout: "30 seconds" })("SpeciesManager", (it) => {
     "should find all species",
     Effect.fnUntraced(function* () {
       const repo = yield* SpeciesManager;
-      const mockedSpecies = Species.makeMockInsert();
+      const mockedSpecies = UpsertSpeciesPayload.makeMock();
       yield* repo.create(mockedSpecies);
       const species = yield* repo.findAll();
 
@@ -37,7 +37,7 @@ eIt.layer(layer, { timeout: "30 seconds" })("SpeciesManager", (it) => {
     "should find species by id",
     Effect.fnUntraced(function* () {
       const repo = yield* SpeciesManager;
-      const mockedSpecies = Species.makeMockInsert();
+      const mockedSpecies = UpsertSpeciesPayload.makeMock();
       const createdSpecies = yield* repo.create(mockedSpecies);
 
       const foundSpecies = yield* repo.findByName(
@@ -53,7 +53,7 @@ eIt.layer(layer, { timeout: "30 seconds" })("SpeciesManager", (it) => {
     "should handle empty array of items in species",
     Effect.fnUntraced(function* () {
       const repo = yield* SpeciesManager;
-      const mockedSpecies = Species.makeMockInsert({ altNames: [] });
+      const mockedSpecies = UpsertSpeciesPayload.makeMock({ altNames: [] });
       const createdSpecies = yield* repo.create(mockedSpecies);
       const foundSpecies = yield* repo.findByName(
         createdSpecies.scientificName

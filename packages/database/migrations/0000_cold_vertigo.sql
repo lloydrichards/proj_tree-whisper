@@ -13,6 +13,8 @@ CREATE TABLE "species" (
 	"fruit_months" text[],
 	"growth_rate" text,
 	"growth_months" text[],
+	"growth_form" text,
+	"growth_habit" text[],
 	"light" integer,
 	"humidity" integer,
 	"soil_ph_min" double precision,

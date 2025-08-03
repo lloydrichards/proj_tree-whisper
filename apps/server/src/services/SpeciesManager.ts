@@ -2,6 +2,7 @@ import { Database, PgLive } from "@repo/database";
 import { species } from "@repo/database/schema";
 import {
   NoSpeciesFoundError,
+  Species,
   SpeciesId,
   SpeciesNotFoundError,
   type UpsertSpeciesPayload,
@@ -25,7 +26,7 @@ export class SpeciesManager extends Effect.Service<SpeciesManager>()(
           if (result == null) {
             return yield* Effect.fail(new SpeciesNotFoundError({ id }));
           }
-          return result;
+          return yield* Schema.decodeUnknown(Species)(result);
         });
 
       const findAll = () =>
@@ -35,7 +36,7 @@ export class SpeciesManager extends Effect.Service<SpeciesManager>()(
           if (results.length === 0) {
             return yield* Effect.fail(new NoSpeciesFoundError());
           }
-          return results;
+          return yield* Schema.decodeUnknown(Species.Array)(results);
         });
 
       const create = (input: typeof UpsertSpeciesPayload.Type) =>
@@ -61,6 +62,7 @@ export class SpeciesManager extends Effect.Service<SpeciesManager>()(
         findAll: flow(
           findAll,
           Effect.catchTags({
+            ParseError: Effect.die,
             SqlError: Effect.die,
           })
         ),

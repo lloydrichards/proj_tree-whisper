@@ -23,6 +23,8 @@ export const species = pgTable("species", {
   fruitMonths: text().array(),
   growthRate: text(),
   growthMonths: text().array(),
+  growthForm: text(),
+  growthHabit: text().array(),
   light: integer(),
   humidity: integer(),
   soilPhMin: doublePrecision(),

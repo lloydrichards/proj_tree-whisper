@@ -1,5 +1,5 @@
 {
-  "id": "abaeb941-a1cd-4bb8-a96e-8ae7c73782dd",
+  "id": "0ce59180-5431-4866-ad1b-df7f30a8ea5d",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -88,6 +88,18 @@
         },
         "growth_months": {
           "name": "growth_months",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "growth_form": {
+          "name": "growth_form",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "growth_habit": {
+          "name": "growth_habit",
           "type": "text[]",
           "primaryKey": false,
           "notNull": false
