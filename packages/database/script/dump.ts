@@ -21,7 +21,7 @@ BunRuntime.runMain(
     const path = yield* Path;
     const fs = yield* FileSystem.FileSystem;
     const currentDir = fileURLToPath(new URL(".", import.meta.url));
-    const outputPath = path.join(currentDir, "../migrations/sql", OUTPUT_FILE);
+    const outputPath = path.join(currentDir, "../", OUTPUT_FILE);
     const config = yield* DbConfig;
 
     yield* Effect.log("Dumping database schema from Docker container...");

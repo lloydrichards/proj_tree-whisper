@@ -1,0 +1,42 @@
+CREATE TABLE "species" (
+	"scientific_name" text PRIMARY KEY NOT NULL,
+	"common_name" text,
+	"alt_names" text[],
+	"genus" text,
+	"family" text,
+	"flower_color" text[],
+	"flower_months" text[],
+	"foliage_texture" text,
+	"foliage_color" text[],
+	"fruit_color" text[],
+	"fruit_shape" text,
+	"fruit_months" text[],
+	"growth_rate" text,
+	"growth_months" text[],
+	"light" integer,
+	"humidity" integer,
+	"soil_ph_min" double precision,
+	"soil_ph_max" double precision,
+	"soil_nutriments" integer,
+	"soil_salinity" integer,
+	"soil_texture" integer,
+	"soil_humidity" integer,
+	"created_at" timestamp with time zone DEFAULT now(),
+	"updated_at" timestamp with time zone
+);
+--> statement-breakpoint
+CREATE TABLE "trees" (
+	"id" text PRIMARY KEY NOT NULL,
+	"name" text NOT NULL,
+	"category" text NOT NULL,
+	"quarter" text NOT NULL,
+	"address" text,
+	"family" text NOT NULL,
+	"species" text NOT NULL,
+	"cultivar" text,
+	"year" integer,
+	"longitude" double precision NOT NULL,
+	"latitude" double precision NOT NULL,
+	"created_at" timestamp with time zone DEFAULT now(),
+	"updated_at" timestamp with time zone
+);

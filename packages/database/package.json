@@ -4,12 +4,16 @@
   "private": true,
   "exports": {
     ".": "./src/index.ts",
-    "./migrations/*": "./migrations/*"
+    "./migrations/*": "./migrations/*",
+    "./schema": "./src/schema/index.ts"
   },
   "scripts": {
     "build": "tsc",
     "type-check": "tsc --noEmit",
-    "db:migrate": "bun run script/migrate.ts && bun db:dump",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio",
     "db:reset": "bun run script/reset.ts",
     "db:dump": "bun run script/dump.ts",
     "db:seed": "bun run script/seed.ts",
@@ -19,13 +23,16 @@
     "@effect/platform": "^0.88.2",
     "@effect/platform-bun": "^0.74.0",
     "@effect/sql": "^0.42.1",
+    "@effect/sql-drizzle": "^0.43.0",
     "@effect/sql-pg": "^0.43.0",
+    "drizzle-orm": "^0.44.4",
     "effect": "^3.16.16",
     "pg": "^8.16.3"
   },
   "devDependencies": {
     "@repo/config-typescript": "*",
     "@types/bun": "^1.2.19",
-    "@types/pg": "^8.15.4"
+    "@types/pg": "^8.15.4",
+    "drizzle-kit": "^0.31.4"
   }
 }

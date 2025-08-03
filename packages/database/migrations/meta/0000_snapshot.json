@@ -1,0 +1,269 @@
+{
+  "id": "abaeb941-a1cd-4bb8-a96e-8ae7c73782dd",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.species": {
+      "name": "species",
+      "schema": "",
+      "columns": {
+        "scientific_name": {
+          "name": "scientific_name",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "common_name": {
+          "name": "common_name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "alt_names": {
+          "name": "alt_names",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "genus": {
+          "name": "genus",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "family": {
+          "name": "family",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "flower_color": {
+          "name": "flower_color",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "flower_months": {
+          "name": "flower_months",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "foliage_texture": {
+          "name": "foliage_texture",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "foliage_color": {
+          "name": "foliage_color",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "fruit_color": {
+          "name": "fruit_color",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "fruit_shape": {
+          "name": "fruit_shape",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "fruit_months": {
+          "name": "fruit_months",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "growth_rate": {
+          "name": "growth_rate",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "growth_months": {
+          "name": "growth_months",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "light": {
+          "name": "light",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "humidity": {
+          "name": "humidity",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "soil_ph_min": {
+          "name": "soil_ph_min",
+          "type": "double precision",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "soil_ph_max": {
+          "name": "soil_ph_max",
+          "type": "double precision",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "soil_nutriments": {
+          "name": "soil_nutriments",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "soil_salinity": {
+          "name": "soil_salinity",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "soil_texture": {
+          "name": "soil_texture",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "soil_humidity": {
+          "name": "soil_humidity",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.trees": {
+      "name": "trees",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "category": {
+          "name": "category",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "quarter": {
+          "name": "quarter",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "address": {
+          "name": "address",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "family": {
+          "name": "family",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "species": {
+          "name": "species",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "cultivar": {
+          "name": "cultivar",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "year": {
+          "name": "year",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "longitude": {
+          "name": "longitude",
+          "type": "double precision",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "latitude": {
+          "name": "latitude",
+          "type": "double precision",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "views": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}
