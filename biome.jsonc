@@ -18,6 +18,9 @@
           "options": {}
         }
       },
+      "performance": {
+        "noNamespaceImport": "off"
+      },
       "style": {
         "useFilenamingConvention": {
           "level": "warn",

@@ -1,14 +1,13 @@
 import { FileSystem } from "@effect/platform";
 import { BunContext, BunRuntime } from "@effect/platform-bun";
-import { SqlClient } from "@effect/sql";
-import type { Fragment, Primitive } from "@effect/sql/Statement";
 import { Array, Effect, Schema, Struct } from "effect";
-import { PgLive } from "../src/index";
+import { Database, DrizzleLive, PgLive } from "../src/index";
+import { species, trees } from "../src/schema";
 
 const TreeSeed = Schema.Struct({
   name: Schema.String,
   number: Schema.String,
-  category: Schema.Literal("STREET", "PARK"),
+  category: Schema.String,
   quarter: Schema.String,
   address: Schema.NullOr(Schema.String),
   family: Schema.String,
@@ -48,7 +47,7 @@ const SpeciesSeed = Schema.Struct({
 });
 
 const seedTrees = Effect.gen(function* () {
-  const sql = yield* SqlClient.SqlClient;
+  const db = yield* Database;
   const fs = yield* FileSystem.FileSystem;
 
   yield* Effect.log("Seeding trees...");
@@ -57,20 +56,34 @@ const seedTrees = Effect.gen(function* () {
     .readFileString("./script/data/tree_seed.json")
     .pipe(Effect.map((s) => JSON.parse(s)));
 
-  const trees = yield* Schema.decodeUnknown(Schema.Array(TreeSeed))(content);
+  const treeSeed = yield* Schema.decodeUnknown(Schema.Array(TreeSeed))(content);
 
-  const chunks = Array.chunksOf(trees, 500);
+  const chunks = Array.chunksOf(treeSeed, 500);
 
   yield* Effect.log(
-    `Inserting ${trees.length} trees in ${chunks.length} chunks...`
+    `Inserting ${treeSeed.length} trees in ${chunks.length} chunks...`
   );
 
   for (const chunk of chunks) {
-    yield* sql`INSERT INTO trees ${sql.insert(chunk)}`;
+    yield* db.insert(trees).values(
+      chunk.map((d) => ({
+        id: d.number,
+        name: d.name,
+        category: d.category,
+        quarter: d.quarter,
+        address: d.address,
+        family: d.family,
+        species: d.species,
+        cultivar: d.cultivar,
+        year: d.year,
+        longitude: d.longitude,
+        latitude: d.latitude,
+      }))
+    );
   }
 });
 const seedSpeccies = Effect.gen(function* () {
-  const sql = yield* SqlClient.SqlClient;
+  const db = yield* Database;
   const fs = yield* FileSystem.FileSystem;
 
   yield* Effect.log("Seeding species...");
@@ -79,11 +92,11 @@ const seedSpeccies = Effect.gen(function* () {
     .readFileString("./script/data/species_seed.json")
     .pipe(Effect.map((s) => JSON.parse(s)));
 
-  const species = yield* Schema.decodeUnknown(Schema.Array(SpeciesSeed))(
+  const speciesSeed = yield* Schema.decodeUnknown(Schema.Array(SpeciesSeed))(
     content
   );
 
-  const cleanedSpecies = species
+  const cleanedSpecies = speciesSeed
     .map((s) => ({
       ...s,
       id: undefined,
@@ -98,9 +111,32 @@ const seedSpeccies = Effect.gen(function* () {
   );
 
   for (const chunk of chunks) {
-    yield* sql`INSERT INTO species ${sql.insert(
-      chunk as unknown as Record<string, Primitive | Fragment | undefined>
-    )}`;
+    yield* db.insert(species).values(
+      chunk.map((d) => ({
+        scientificName: d.scientific_name,
+        commonName: d.common_name,
+        altNames: d.alt_names?.map((e) => e),
+        genus: d.genus,
+        family: d.family,
+        flowerColor: d.flower_color?.map((e) => e),
+        flowerMonths: d.flower_months?.map((e) => e),
+        foliageTexture: d.foliage_texture,
+        foliageColor: d.foliage_color?.map((e) => e),
+        fruitColor: d.fruit_color?.map((e) => e),
+        fruitShape: d.fruit_shape,
+        fruitMonths: d.fruit_months?.map((e) => e),
+        growthRate: d.growth_rate,
+        growthMonths: d.growth_months?.map((e) => e),
+        light: d.light,
+        humidity: d.humidity,
+        soilPhMin: d.soil_ph_min,
+        soilPhMax: d.soil_ph_max,
+        soilNutriments: d.soil_nutriments,
+        soilSalinity: d.soil_salinity,
+        soilTexture: d.soil_texture,
+        soilHumidity: d.humidity,
+      }))
+    );
   }
 });
 
@@ -108,9 +144,13 @@ BunRuntime.runMain(
   Effect.gen(function* () {
     yield* Effect.log("Starting seed...");
 
-    yield* seedTrees;
     yield* seedSpeccies;
+    yield* seedTrees;
 
     yield* Effect.log("Seed complete");
-  }).pipe(Effect.provide(PgLive), Effect.provide(BunContext.layer))
+  }).pipe(
+    Effect.provide(DrizzleLive),
+    Effect.provide(PgLive),
+    Effect.provide(BunContext.layer)
+  )
 );

@@ -1,3 +1,4 @@
+import * as PgDrizzle from "@effect/sql-drizzle/Pg";
 import { PgClient } from "@effect/sql-pg";
 import {
   Config,
@@ -8,6 +9,7 @@ import {
   Schedule,
   String,
 } from "effect";
+import * as schema from "./schema";
 
 const stripSQLValueEntries = (typeIds: readonly number[]) => {
   return Object.fromEntries(
@@ -60,3 +62,10 @@ export const PgLive = Layer.unwrapEffect(
     )
   )
 );
+
+export const Database = PgDrizzle.make({
+  casing: "snake_case",
+  schema,
+});
+
+export const DrizzleLive = PgDrizzle.layer.pipe(Layer.provide(PgLive));

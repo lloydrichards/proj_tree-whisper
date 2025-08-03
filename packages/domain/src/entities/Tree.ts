@@ -1,6 +1,5 @@
 import { Schema } from "effect";
 import {
-  generateUUID,
   randomArrayElement,
   randomCity,
   randomIntRange,
@@ -12,12 +11,11 @@ import {
   randomWords,
 } from "../helpers/mock-generators";
 
-export const TreeId = Schema.UUID.pipe(Schema.brand("TreeId"));
+export const TreeId = Schema.String.pipe(Schema.brand("TreeId"));
 
 export class Tree extends Schema.Class<Tree>("Tree")({
   id: TreeId,
   name: Schema.String,
-  number: Schema.String,
   category: Schema.Literal("STREET", "PARK"),
   quarter: Schema.String,
   address: Schema.NullOr(Schema.String),
@@ -25,8 +23,8 @@ export class Tree extends Schema.Class<Tree>("Tree")({
   species: Schema.String,
   cultivar: Schema.NullOr(Schema.String),
   year: Schema.NullOr(Schema.Number),
-  longitude: Schema.NumberFromString,
-  latitude: Schema.NumberFromString,
+  longitude: Schema.Number,
+  latitude: Schema.Number,
   createdAt: Schema.DateTimeUtc,
   updatedAt: Schema.NullOr(Schema.DateTimeUtc),
 }) {
@@ -34,9 +32,8 @@ export class Tree extends Schema.Class<Tree>("Tree")({
 
   static makeMock(overrides: Partial<Tree> = {}): Tree {
     return new Tree({
-      id: TreeId.make(generateUUID()),
+      id: TreeId.make(randomNumericString(3)),
       name: randomWords(3),
-      number: randomNumericString(3),
       category: randomArrayElement(["STREET", "PARK"]),
       quarter: randomCity(),
       address: randomStreetAddress(),

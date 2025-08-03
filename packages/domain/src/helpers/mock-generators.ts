@@ -23,11 +23,6 @@ export const maybeFloatRange = (
 export const randomPastDateTime = (years: number): DateTime.Utc =>
   DateTime.unsafeFromDate(faker.date.past({ years }));
 
-export const maybeScientificName = (): string | null =>
-  maybeNull(() => `${faker.word.words(1)} ${faker.word.words(1)}`);
-
-export const generateUUID = (): string => faker.string.uuid();
-
 export const randomArrayElement = <T>(elements: readonly T[]): T =>
   faker.helpers.arrayElement(elements);
 

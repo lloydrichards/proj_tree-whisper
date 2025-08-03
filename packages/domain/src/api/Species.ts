@@ -29,7 +29,7 @@ export class UpsertSpeciesPayload extends Schema.Class<UpsertSpeciesPayload>(
       })
     )
   ),
-  altNames: Schema.Array(Schema.String),
+  altNames: Schema.mutable(Schema.Array(Schema.String)),
   genus: Schema.NullOr(
     Schema.Trim.pipe(
       Schema.nonEmptyString({
@@ -50,17 +50,17 @@ export class UpsertSpeciesPayload extends Schema.Class<UpsertSpeciesPayload>(
       })
     )
   ),
-  flowerColor: Schema.Array(Schema.String),
-  flowerMonths: Schema.Array(MonthEnum),
+  flowerColor: Schema.mutable(Schema.Array(Schema.String)),
+  flowerMonths: Schema.mutable(Schema.Array(MonthEnum)),
   foliageTexture: Schema.NullOr(Schema.String),
-  foliageColor: Schema.Array(Schema.String),
-  fruitColor: Schema.Array(Schema.String),
+  foliageColor: Schema.mutable(Schema.Array(Schema.String)),
+  fruitColor: Schema.mutable(Schema.Array(Schema.String)),
   fruitShape: Schema.NullOr(Schema.String),
-  fruitMonths: Schema.Array(MonthEnum),
+  fruitMonths: Schema.mutable(Schema.Array(MonthEnum)),
   growthForm: Schema.NullOr(Schema.String),
-  growthHabit: Schema.Array(HabitEnum),
+  growthHabit: Schema.mutable(Schema.Array(HabitEnum)),
   growthRate: Schema.NullOr(RateEnum),
-  growthMonths: Schema.Array(MonthEnum),
+  growthMonths: Schema.mutable(Schema.Array(MonthEnum)),
   light: Schema.NullOr(
     Schema.Number.pipe(
       Schema.int({
@@ -172,6 +172,20 @@ export class SpeciesNotFoundError extends Schema.TaggedError<SpeciesNotFoundErro
 ) {
   override get message() {
     return `Species with id ${this.id} not found`;
+  }
+}
+
+export class NoSpeciesFoundError extends Schema.TaggedError<NoSpeciesFoundError>(
+  "NoSpeciesFoundError"
+)(
+  "NoSpeciesFoundError",
+  {},
+  HttpApiSchema.annotations({
+    status: 404,
+  })
+) {
+  override get message() {
+    return "No species found";
   }
 }
 

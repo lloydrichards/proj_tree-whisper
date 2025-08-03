@@ -10,6 +10,10 @@ import {
   randomPastDateTime,
 } from "../helpers/mock-generators";
 
+// Forward declaration to avoid circular dependency
+export type UpsertSpeciesPayload =
+  import("../api/Species").UpsertSpeciesPayload;
+
 export const SpeciesId = Schema.String.annotations({
   description:
     "Unique identifier for the species, represented by the scientific name of the species",
@@ -178,5 +182,45 @@ export class Species extends Schema.Class<Species>("Species")({
       updatedAt: null,
       ...overrides,
     });
+  }
+
+  static makeMockInsert(
+    overrides: Partial<UpsertSpeciesPayload> = {}
+  ): UpsertSpeciesPayload {
+    return {
+      scientificName: SpeciesId.make(
+        `${faker.word.words(1)} ${faker.word.words(1)}`
+      ),
+      commonName: maybeWords(2),
+      altNames: many(() => faker.word.words(2), 1, 3),
+      genus: maybeWords(1),
+      family: maybeWords(1),
+      flowerColor: many(() => faker.color.human(), 1, 3),
+      flowerMonths: many(() => arrayElement(MONTHS), 0, 3),
+      foliageTexture: maybeNull(() =>
+        arrayElement(["fine", "medium", "coarse"])
+      ),
+      foliageColor: many(() => faker.color.human(), 1, 3),
+      fruitColor: many(() => faker.color.human(), 1, 3),
+      fruitShape: maybeNull(() =>
+        arrayElement(["round", "oval", "elongated", "irregular"])
+      ),
+      fruitMonths: many(() => arrayElement(MONTHS), 0, 3),
+      growthForm: maybeNull(() =>
+        arrayElement(["upright", "spreading", "weeping", "columnar"])
+      ),
+      growthHabit: many(() => arrayElement(HABITS), 1, 2),
+      growthRate: maybeNull(() => arrayElement(RATES)),
+      growthMonths: many(() => arrayElement(MONTHS), 0, 3),
+      light: maybeIntRange(1, 10),
+      humidity: maybeIntRange(1, 10),
+      soilPhMin: maybeFloatRange(0.0, 14.0, 1),
+      soilPhMax: maybeFloatRange(0.0, 14.0, 1),
+      soilNutriments: maybeIntRange(1, 10),
+      soilSalinity: maybeIntRange(1, 10),
+      soilTexture: maybeIntRange(1, 10),
+      soilHumidity: maybeIntRange(1, 10),
+      ...overrides,
+    };
   }
 }
